@@ -1,9 +1,10 @@
 
 /*Noto Sans KR 폰트 패밀리*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
 @font-face {
     font-family: 'Noto Sans KR';
 	src: url(../fonts/NotoSansKR-Regular.woff) format('woff');
-	src: url(../fonts/NotoSansKR-Bold.woff) format('woff');
+	src: url(../fonts/NotoSansKR-Medium.woff) format('woff');
 }
 /*Noto Sans KR 폰트 패밀리 끝*/
 /*****************************************************
@@ -16,9 +17,9 @@
 #menuTopUI a{
 	display: block;
 	font-family: 		'Noto Sans KR', sans-serif !important;
-	font-size: 			12px;
+	font-size: 			14px !important;
 	text-align: 		left;
-	color:				#000;
+	color:				#ffffff;
 	border-style: 		solid;
 	border-width: 		0;
 	margin: 			;
@@ -33,7 +34,7 @@
 	color:				#000;
 }
 #menuTopUI a.activeOn{
-	font-weight:		700 !important;
+	font-weight:		500 !important;
 }
 #menuTopUI ul#k2wiz_GNB div{
 	display: none;
@@ -130,20 +131,20 @@
 #menuTopUI #div_26525355
  {
 	
- 	width: 				150px;
+ 	width: 				190px;
  	
  	
-	height: 			30px !important;
+	height: 			90px !important;
  	
 	background: 		url("") left top no-repeat  !important;
 	
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				34px  !important;
+	top: 				36.8px  !important;
 	
 	
-	left: 				-55px !important;
+	left: 				-68px !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
 	padding: 			0px 5px 0px 5px  !important;
@@ -157,17 +158,17 @@
 #menuTopUI #div_26525360
  {
 	
-	width: 				150px;
+	width: 				170px;
  	
  	
-	height: 			30px !important;
+	height: 			90px !important;
  	
 	background: 		url("") left top no-repeat  !important;
 	
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				34px  !important;
+	top: 				36.8px  !important;
 	
 	
 	left: 				-55px !important;
@@ -201,17 +202,17 @@
 #menuTopUI #div_26525363
  {
 	
-	width: 				150px;
+	width: 				170px;
  	
  	
-	height: 			30px !important;
+	height: 			100px !important;
  	
 	background: 		url("") left top no-repeat  !important;
 	
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				34px  !important;
+	top: 				36.8px  !important;
 	
 	
 	left: 				-35px  !important;
@@ -228,17 +229,17 @@
 #menuTopUI #div_26525372
  {
 	
-	width: 				150px;
+	width: 				170px;
  	
  	
-	height: 			30px !important;
+	height: 			90px !important;
  	
 	background: 		url("") left top no-repeat  !important;
 	
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				34px  !important;
+	top: 				36.8px  !important;
 	
 	
 	left: 				-73px  !important;
@@ -255,17 +256,17 @@
 #menuTopUI #div_26525374
  {
 	
-	width: 				150px;
+	width: 				170px;
  	
  	
-	height: 			30px !important;
+	height: 			90px !important;
  	
 	background: 		url("") left top no-repeat  !important;
 	
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				34px  !important;
+	top: 				36.8px  !important;
 	
 	
 	left: 				-55px  !important;
@@ -282,17 +283,17 @@
 #menuTopUI #div_26525379
  {
 	
-	width: 				150px;
+	width: 				170px;
  	
  	
-	height: 			30px !important;
+	height: 			90px !important;
  	
 	background: 		url("") left top no-repeat  !important;
 	
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				34px  !important;
+	top: 				36.8px  !important;
 	
 	
 	left: 				-75px  !important;
@@ -363,8 +364,9 @@
 {
 	
 	
-	font-weight: 700;	
-	color:	#1B0053  !important;
+	font-weight: 500;	
+	color:	#ffffff  !important;
+	text-decoration: underline solid #ffffff 0.75px;
 	background			:url("")  no-repeat left top !important;
 	
 }
@@ -401,8 +403,9 @@
 {
 	
 	
-	font-weight: 700;	
-	color:	#1B0053 !important;
+	font-weight: 500;	
+	color:	#ffffff  !important;
+	text-decoration: underline solid #ffffff 0.75px;
 	background			:url("")  no-repeat left top !important;
 	
 }
@@ -439,8 +442,9 @@
 {
 	
 	
-	font-weight: 700;	
-	color:	#1B0053 !important;
+	font-weight: 500;	
+	color:	#ffffff  !important;
+	text-decoration: underline solid #ffffff 0.75px;
 	background			:url("")  no-repeat left top !important;
 	
 }
@@ -477,8 +481,9 @@
 {
 	
 	
-	font-weight: 700;	
-	color:	#1B0053 !important;
+	font-weight: 500;	
+	color:	#ffffff  !important;
+	text-decoration: underline solid #ffffff 0.75px;
 	background			:url("")  no-repeat left top !important;
 	
 }
@@ -515,8 +520,9 @@
 {
 	
 	
-	font-weight: 700;	
-	color:	#1B0053  !important;
+	font-weight: 500;	
+	color:	#ffffff  !important;
+	text-decoration: underline solid #ffffff 0.75px;
 	background			:url("")  no-repeat left top !important;
 	
 }
@@ -532,7 +538,7 @@
 	font-size: 			16px !important;
 	text-align: 		center !important;
 	color:				 !important;
-	background: 		url("") #ffffff no-repeat left top !important;
+	background: 		url("") no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
 	padding:	 		0px 0px 0px 0px !important;
 	border-style: solid;
@@ -553,9 +559,10 @@
 {
 	
 	z-index: 99999;
-	font-weight: 700;	
-	color:	#1B0053  !important;
-	background			:url("") #ffffff no-repeat left top !important;
+	font-weight: 500;	
+	color:	#ffffff  !important;
+	text-decoration: underline solid #ffffff 0.75px;
+	background			:url("") no-repeat left top !important;
 	
 }
 
@@ -568,7 +575,7 @@
 {
 	
 	font-family: 		"NotoSansKR" ;
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		center !important;
 	color:				#606060 ;
 	background: 		url("") #ffffff no-repeat left top ;
@@ -577,7 +584,7 @@
 	border-style: solid;
 	border-color: 		    ;
 	border-width: 		px px px px ;
-	width: 150px;
+	width: 170px;
 	display: block;
 	/* width: 				px ; */
 	height: 			px ;
@@ -591,7 +598,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("") #ffffff no-repeat left top ;
 	
@@ -604,7 +611,7 @@
 {
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
 	background: 		url("") #ffffff; no-repeat left top !important;
@@ -628,7 +635,7 @@
 {
 	
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:		#1B0053  !important;
 	background			:url("") #ffffff no-repeat left top !important;
 	
@@ -644,7 +651,7 @@
 	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		center !important;
 	color:				#606060 ;
 	background: 		url("") #ffffff no-repeat left top ;
@@ -667,7 +674,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("") #ffffff no-repeat left top ;
 	
@@ -681,7 +688,7 @@
 	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
 	background: 		url("") #ffffff no-repeat left top !important;
@@ -705,7 +712,7 @@
 {
 	
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053  !important;
 	background			:url("") #ffffff no-repeat left top !important;
 	
@@ -719,7 +726,7 @@
 	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#050505 !important;
 	background: 		url("") #ffffff no-repeat left top !important;
@@ -743,7 +750,7 @@
 {
 	
 	
-	font-weight: 700;	color:	#1B0053 !important;
+	font-weight: 500;	color:	#1B0053 !important;
 	background			:url("") #ffffff no-repeat left top !important;
 	
 }
@@ -756,7 +763,7 @@
 	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#050505 !important;
 	background: 		url("") #ffffff no-repeat left top !important;
@@ -780,7 +787,7 @@
 {
 	
 	
-	font-weight: 700;	color:			#1B0053 !important;
+	font-weight: 500;	color:			#1B0053 !important;
 	background			:url("") #ffffff no-repeat left top !important;
 	
 }
@@ -793,7 +800,7 @@
 	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
 	background: 		url("") #ffffff no-repeat left top !important;
@@ -817,7 +824,7 @@
 {
 	
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 !important;
 	background			:url("") #ffffff no-repeat left top !important;
 	
@@ -833,7 +840,7 @@
 	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		center ;
 	color:				#606060 ;
 	background: 		url("") #ffffff no-repeat left top ;
@@ -856,7 +863,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("") #ffffff no-repeat left top ;
 	
@@ -870,7 +877,7 @@
 	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
 	background: 		url("") #ffffff no-repeat left top !important;
@@ -894,7 +901,7 @@
 {
 	
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 !important;
 	background			:url("") #ffffff no-repeat left top !important;
 	
@@ -910,7 +917,7 @@
 	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		center ;
 	color:				#606060 ;
 	background: 		url("") #ffffff no-repeat left top ;
@@ -933,7 +940,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("") #ffffff no-repeat left top ;
 	
@@ -947,7 +954,7 @@
 	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
 	background: 		url("") #ffffff no-repeat left top !important;
@@ -971,7 +978,7 @@
 {
 	
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 !important;
 	background			:url("") #ffffff no-repeat left top !important;
 	
@@ -987,7 +994,7 @@
 	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		center ;
 	color:				#606060 ;
 	background: 		url("") #ffffff no-repeat left top ;
@@ -1010,7 +1017,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("") #ffffff no-repeat left top ;
 	
@@ -1024,7 +1031,7 @@
 	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
 	background: 		url("") #ffffff no-repeat left top !important;
@@ -1048,7 +1055,7 @@
 {
 	
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 !important;
 	background			:url("") #ffffff no-repeat left top !important;
 	
@@ -1064,7 +1071,7 @@
 	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		center ;
 	color:				#606060 ;
 	background: 		url("")  no-repeat left top ;
@@ -1088,7 +1095,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("")  no-repeat left top ;
 	background-color: #ffffff;
@@ -1110,7 +1117,7 @@
 	
 	background: 		url("/user/acws/mycodyimages/left8_tit.gif") no-repeat left top !important;
 	min-width: 50px !important;
-	text-indent: -700 !important0px !important;
+	text-indent: -500 !important;
 	font-size: 0 !important;
 	
 	width: 				180px !important;
@@ -1124,7 +1131,7 @@
 	
 	background: 		url("/user/acws/mycodyimages/left3_tit.gif") no-repeat left top !important;
 	min-width: 50px !important;
-	text-indent: -700 !important0px !important;
+	text-indent: -500 !important;
 	font-size: 0 !important;
 	
 	width: 				180px !important;
@@ -1138,7 +1145,7 @@
 	
 	background: 		url("/user/acws/mycodyimages/left1_tit.gif") no-repeat left top !important;
 	min-width: 50px !important;
-	text-indent: -700 !important0px !important;
+	text-indent: -500 !important;
 	font-size: 0 !important;
 	
 	width: 				180px !important;
@@ -1152,7 +1159,7 @@
 	
 	background: 		url("/user/acws/mycodyimages/sitemap.gif") no-repeat left top !important;
 	min-width: 50px !important;
-	text-indent: -700 !important0px !important;
+	text-indent: -500 !important;
 	font-size: 0 !important;
 	
 	width: 				180px !important;
@@ -1166,7 +1173,7 @@
 	
 	background: 		url("/user/acws/mycodyimages/left4_tit.gif") no-repeat left top !important;
 	min-width: 50px !important;
-	text-indent: -700 !important0px !important;
+	text-indent: -500 !important;
 	font-size: 0 !important;
 	
 	width: 				180px !important;
@@ -1180,7 +1187,7 @@
 	
 	background: 		url("/user/acws/mycodyimages/left5_tit.gif") no-repeat left top !important;
 	min-width: 50px !important;
-	text-indent: -700 !important0px !important;
+	text-indent: -500 !important;
 	font-size: 0 !important;
 	
 	width: 				180px !important;
@@ -1194,7 +1201,7 @@
 	
 	background: 		url("/user/acws/mycodyimages/left6_tit.gif") no-repeat left top !important;
 	min-width: 50px !important;
-	text-indent: -700 !important0px !important;
+	text-indent: -500 !important;
 	font-size: 0 !important;
 	
 	width: 				180px !important;
@@ -1208,7 +1215,7 @@
 	
 	background: 		url("/user/acws/mycodyimages/left2_tit.gif") no-repeat left top !important;
 	min-width: 50px !important;
-	text-indent: -700 !important0px !important;
+	text-indent: -500 !important;
 	font-size: 0 !important;
 	
 	width: 				180px !important;
@@ -1222,7 +1229,7 @@
 #menuSubUI a{
 	display: block;
 	font-family: 		"NotoSansKR",NotoSansKR;
-	font-size: 			12px;
+	font-size: 			14px;
 	text-align: 		left;
 	color:				#000;
 	border-style: 		solid;
@@ -1239,7 +1246,7 @@
 	color:				#000;
 }
 #menuSubUI a.activeOn{
-    font-weight:        700 !important;
+    font-weight:        500 !important;
 }
 #menuSubUI ul#k2wiz_GNB div{
 	display: none;
@@ -1252,7 +1259,7 @@
 /*1단계 영역 공통*/
 #menuSubUI .div_1{
 	
-	width: 				150px;
+	width: 				170px;
 	height: 			;
 	margin: 			0;
 	padding: 			0;
@@ -1275,7 +1282,7 @@
 #menuSubUI div.div_2{
 	
 		
-		width: 				150px;
+		width: 				170px;
 		margin: 			0;
 		padding: 			0;
 		border-width: 		0;
@@ -1353,7 +1360,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top ;
@@ -1374,7 +1381,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	
+	font-weight: 500;	
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
 	
 }
@@ -1387,7 +1394,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1408,7 +1415,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
@@ -1422,7 +1429,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1443,7 +1450,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
@@ -1457,7 +1464,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top ;
@@ -1478,7 +1485,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	font-weight: 500;	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
 	
 }
 
@@ -1490,12 +1497,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 30px 0px 30px !important;
+	padding:	 		5px 90px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1511,7 +1518,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1525,12 +1532,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1546,7 +1553,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1560,12 +1567,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1581,7 +1588,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1595,12 +1602,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 30px 0px 30px !important;
+	padding:	 		5px 90px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1616,7 +1623,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1630,12 +1637,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1651,7 +1658,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1665,12 +1672,12 @@
 {	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top ;
 	margin: 			0px 0px 0px 0px ;
-	padding:	 		5px 0px 0px 30px ;
+	padding:	 		5px 0px 0px 90px ;
 	border-style: solid;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
@@ -1686,7 +1693,7 @@
 {
 	
 	color:				#1B0053;
-	font-weight: 700;	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top ;
+	font-weight: 500;	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top ;
 	
 }
 
@@ -1698,12 +1705,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1719,7 +1726,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1733,12 +1740,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1754,7 +1761,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1768,7 +1775,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top ;
@@ -1789,7 +1796,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	font-weight: 500;	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
 	
 }
 
@@ -1801,7 +1808,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1822,7 +1829,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
@@ -1836,12 +1843,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1857,7 +1864,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1871,12 +1878,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -1892,7 +1899,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -1906,12 +1913,12 @@
 {	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top ;
 	margin: 			0px 0px 0px 0px ;
-	padding:	 		5px 0px 0px 30px ;
+	padding:	 		5px 0px 0px 90px ;
 	border-style: solid;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
@@ -1927,7 +1934,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top ;
+	font-weight: 500;	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top ;
 	
 }
 
@@ -1939,7 +1946,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1960,7 +1967,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
@@ -1974,7 +1981,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top ;
@@ -1995,7 +2002,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	
+	font-weight: 500;	
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
 	
 }
@@ -2008,12 +2015,12 @@
 {	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top ;
 	margin: 			0px 0px 0px 0px ;
-	padding:	 		5px 0px 0px 30px ;
+	padding:	 		5px 0px 0px 90px ;
 	border-style: solid;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
@@ -2029,7 +2036,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top ;
+	font-weight: 500;	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top ;
 	
 }
 
@@ -2041,12 +2048,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -2062,7 +2069,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -2076,12 +2083,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -2097,7 +2104,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -2111,7 +2118,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top ;
@@ -2132,7 +2139,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	
+	font-weight: 500;	
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
 	
 }
@@ -2145,7 +2152,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -2166,7 +2173,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
@@ -2180,12 +2187,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	/* color:				 !important; */
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -2201,7 +2208,7 @@
 {
 	
 	/* color:				 !important; */
-	font-weight: 700;	
+	font-weight: 500;	
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -2214,12 +2221,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -2235,7 +2242,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -2249,7 +2256,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top ;
@@ -2270,7 +2277,7 @@
 {
 	
 	color:				#1B0053;
-	font-weight: 700;	
+	font-weight: 500;	
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
 	
 }
@@ -2283,7 +2290,7 @@
 {	
 	
 	/*font-family: 		"NotoSansKR" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -2304,7 +2311,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
@@ -2318,7 +2325,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -2339,7 +2346,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
@@ -2353,7 +2360,7 @@
 {	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top ;
@@ -2374,7 +2381,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	
+	font-weight: 500;	
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
 	
 }
@@ -2387,7 +2394,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -2408,7 +2415,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
@@ -2422,7 +2429,7 @@
 {	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("/user/acws/mycodyimages/left_bg.gif")  no-repeat left top ;
@@ -2443,7 +2450,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	font-weight: 500;	background			:url("/user/acws/mycodyimages/left_bgon.gif")  no-repeat left top ;
 	
 }
 
@@ -2455,12 +2462,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -2476,7 +2483,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -2490,12 +2497,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -2511,7 +2518,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -2525,12 +2532,12 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acws/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
 	margin: 			0px 0px 0px 0px !important;
-	padding:	 		5px 0px 0px 30px !important;
+	padding:	 		5px 0px 0px 90px !important;
 	border-style: solid;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
@@ -2546,7 +2553,7 @@
 
 {
 	
-	font-weight: 700;	
+	font-weight: 500;	
 	color:				#1B0053 ;
 	background			:url("/user/acws/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
@@ -2560,7 +2567,7 @@
 {	
 	
 	/*font-family: 		"" ;*/
-	font-size: 			12px ;
+	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
 	background: 		url("")  no-repeat left top ;
@@ -2571,7 +2578,7 @@
 	border-width: 		0px 0px 0px 0px ;
 	
 	width: 				180px ;
-	height: 			30px ;
+	height: 			90px ;
 }
 
 	#menuSubUI #div_26526041 ul.ul_1 li.li_1 a.a_1:hover,
@@ -2581,7 +2588,7 @@
 {
 	
 	color:				#1B0053 ;
-	font-weight: 700;	
+	font-weight: 500;	
 	background			:url("")  no-repeat left top ;
 	
 }
@@ -2593,7 +2600,7 @@
 #menuTabUI a{
 	display: block;
 	font-family: 		"NotoSansKR",NotoSansKR;
-	font-size: 			12px;
+	font-size: 			14px;
 	text-align: 		left;
 	color:				#000;
 	border-style: 		solid;
@@ -2610,7 +2617,7 @@
 	color:				#000;
 }
 #menuTabUI a.activeOn{
-	font-weight:		700 !important;
+	font-weight:		500 !important;
 }
 #menuTabUI ul#k2wiz_GNB div{
 	display: none;
