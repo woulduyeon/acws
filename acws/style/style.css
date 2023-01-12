@@ -1,0 +1,136 @@
+/*�ָ޴� ����ó��*/
+#menuTopUI {
+	width: ;
+	background-color: #ffffff !important;
+}
+#menuTopUI #div #k2wiz_GNB .li_1 a.a_1{
+	font-weight: 700 !important;
+	z-index: 2;
+}
+#header-container, #footer-container{
+	width: 100% !important;
+}
+#header-container, #pageTop{
+	height: 200px !important;
+	z-index: 1;
+}
+/* 헤더 맨 위 바로가기 */
+#header-container > p:nth-of-type(2) {
+	display: block !important;
+	float: right !important;
+	width: 230px !important;
+	height: 15px !important;
+}
+/* 헤더 맨위 바로가기 세부버튼*/
+#header-container > p:nth-of-type(2) > a:nth-of-type(1) > img {
+	left: 225px !important;
+}
+#header-container > p:nth-of-type(2) > a:nth-of-type(2) > img {
+	left: 163px !important;
+}
+#header-container > p:nth-of-type(2) > a:nth-of-type(3) > img {
+	left: 106px !important;
+}
+#header-container > p:nth-of-type(2) > a:nth-of-type(4) > img {
+	left: 65px !important;
+}
+
+#header-container > div:nth-of-type(1) {
+	height: 130px !important;
+}
+#header-container > div:nth-of-type(2) {
+	width: 100% !important;
+	left: 50% !important;
+	transform: translate(-50%, 0) !important;
+	background-color: #ffffff;
+	top: 130px !important;
+	/* height: 50px !important; */
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+/***EwhaNews ***/
+.mbsEwhaNews a.more {
+  top: -13px !important;
+}
+
+/*** tabBoard ***/
+.tabBoardWrap.skin_001 .tabBoardBox .tabBoardList .tabBoardLi.on .tabBoardTab {
+  border-color: #eb5177 !important;
+  background-color: #eb5177 !important;
+}
+
+/*** left menu layout ***/
+#neo_lmenubg
+{
+	position:absolute; width:272px; top:190px;
+	height: 100%;
+	background:url('/user/template0201/mycodyimages/left_menu_bg.png') 0 0;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+/*** pageContent layout ***/
+
+#mid-container{
+
+}
+#mid-container div#content-container {
+	top:190px;
+	background:url('/user/template0201/mycodyimages/sub_bg.png') 0 0px;
+	background-repeat: no-repeat;
+}
+#mid-container div#content-container > div:nth-of-type(1){
+	top: 100px !important;
+}
+#mid-container div#content-container > div:nth-of-type(2){
+	top: 30px !important;
+}
+.neoPageContent{
+	position: absolute;
+	top: 190px;
+	width: 715px;
+	left: 0px;
+}
+
+/*** footer layout ***/
+#jwWrapFooter{
+	background-color: #39383b;
+	background-image:url('');
+	background-repeat: repeat-x;
+}
+#footer {
+	background-color: #39383b;
+	padding: 30px 0 0 17px;
+}
+#footer .privacy {color:#999; } 
+#footer .privacy a { color:#FFF; text-decoration:none; margin-right:5px; }
+#footer .address {color:#999; margin:10px 0 0 0; }
+#footer .address strong { color:#d7d7d7; }
+#footer .address a { color:#999; text-decoration:none; }
+#footer .copyright {color:#999; font-size:0.95em; margin:0 0 30px 0;}
+
+/*�ٹ��Խ��� ���� ����*/
+#album-container div ul li dl dt a{color:#7b7b7b !important;}
+#album-container div ul li dl dt a:hover{color:#2b2b2b !important;}
+
+/*������Խ��� ���콺������ ����*/
+#movie-container div.list a:hover{color:#2b2b2b !important;}
+
+/*�ι��Խ��� Ÿ�Ժ��� ���� ����*/
+	/*����*/
+#profile-container div.list a{color:#7e7e7e !important;}
+#profile-container div.list a:hover{color:#a1a1a1 !important;}/*text���콺�����û���_����1,2*/
+#profile-container div.list ul > li .info a:hover{color:#a1a1a1 !important;}/*text���콺�����û���_����3,4,5*/
+#profile-container div.list{border-top:2px solid #8f8f8f !important;}/*borderĮ��*/
+	/*4����Ų*/
+#profile-container div.list.typeB ul > li .info dl dd span{color:#494949 !important;}/*4����Ų text����*/
+#profile-container .info dl dt, #profile-container .info dl dt a{color:#494949 !important;}/*4����Ų ���γ��� text����*/
+#profile-container div.view.typeB ul > li .info dl dd span{color:#494949 !important;}/*4����Ų ���γ��� text����*/
+	/*4��,5�� ��Ų ��������*/
+#profile-container .info a.mail{background:url("/Web-home/user/profile/images/profile_mail_gray.gif") left top no-repeat !important;}/*���γ��� ���Ϲ�ư*/
+#profile-container .info a.homepage{background:url("/Web-home/user/profile/images/profile_home_gray.gif") left top no-repeat !important;}/*���γ��� Ȩ�ǹ�ư*/
+	/*5����Ų*/
+#profile-container div.list.typeC ul > li .info dl dt{background:url('/Web-home/user/profile/images/title_gray.gif') left 8px no-repeat !important;}/*5����Ų ���� ����*/
+#profile-container div.view.typeC ul > li .info dl dt{background:url('/Web-home/user/profile/images/title_gray.gif') left 8px no-repeat !important;}/*5����Ų���γ��� ���� ����*/
