@@ -33,21 +33,32 @@
 #header-container > p:nth-of-type(2) {
 	display: block !important;
 	float: right !important;
-	width: 230px !important;
-	height: 15px !important;
+	width: 240px !important;
+	height: 7px !important;
 }
 /* 헤더 맨위 바로가기 세부버튼*/
+#header-container > p:nth-of-type(2) > a {
+	width: 60px !important;
+	height: 7px !important;
+	display: block !important;
+	float: left;
+	position: relative;
+}
 #header-container > p:nth-of-type(2) > a:nth-of-type(1) > img {
 	left: 225px !important;
+	position: absolute;
 }
 #header-container > p:nth-of-type(2) > a:nth-of-type(2) > img {
 	left: 163px !important;
+	position: absolute;
 }
 #header-container > p:nth-of-type(2) > a:nth-of-type(3) > img {
 	left: 106px !important;
+	position: absolute;
 }
 #header-container > p:nth-of-type(2) > a:nth-of-type(4) > img {
 	left: 65px !important;
+	position: absolute;
 }
 
 #header-container > div:nth-of-type(1) {
@@ -58,7 +69,7 @@
 	width: 100% !important;
 	left: 50% !important;
 	transform: translate(-50%, 0) !important;
-	background-color: #1B0053 !important;
+	background-color: #2B286F !important;
 	top: 130px !important;
 	/* height: 50px !important; */
 	display: flex !important;
