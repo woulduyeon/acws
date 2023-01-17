@@ -52,6 +52,7 @@
 
 #header-container > div:nth-of-type(1) {
 	height: 130px !important;
+	background-color: #ffffff !important;
 }
 #header-container > div:nth-of-type(2) {
 	width: 100% !important;

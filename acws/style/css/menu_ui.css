@@ -134,14 +134,14 @@
  	width: 				190px;
  	
  	
-	height: 			90px !important;
+	height: 			100px !important;
  	
 	background: 		url("") left top no-repeat  !important;
 	
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				36.8px  !important;
+	top: 				52.3px  !important;
 	
 	
 	left: 				-68px !important;
@@ -168,10 +168,10 @@
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				36.8px  !important;
+	top: 				52.3px  !important;
 	
 	
-	left: 				-55px !important;
+	left: 				-52.3px !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
 	padding: 			0px 5px 0px 5px  !important;
@@ -212,7 +212,7 @@
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				36.8px  !important;
+	top: 				52.3px  !important;
 	
 	
 	left: 				-35px  !important;
@@ -239,7 +239,7 @@
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				36.8px  !important;
+	top: 				52.3px  !important;
 	
 	
 	left: 				-73px  !important;
@@ -266,10 +266,10 @@
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				36.8px  !important;
+	top: 				52.3px  !important;
 	
 	
-	left: 				-55px  !important;
+	left: 				-52.3px  !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
 	padding: 			0px 5px 0px 5px  !important;
@@ -293,7 +293,7 @@
 	box-shadow: 0px 0px 6px 0px #00000033;
 	
 	
-	top: 				36.8px  !important;
+	top: 				52.3px  !important;
 	
 	
 	left: 				-75px  !important;
@@ -314,7 +314,7 @@
 	background: 		url("")  left top no-repeat  !important;
 	
 	
-	left: 				-55px  !important;
+	left: 				-52.3px  !important;
 	margin: 			0px 0px 0px 0px  !important;
 	padding: 			0px 5px 0px 5px  !important;
 	border-width: 		px px px px !important;
@@ -574,7 +574,7 @@
 
 {
 	
-	font-family: 		"NotoSansKR" ;
+	font-family: 		'Noto Sans KR', sans-serif !important; ;
 	font-size: 			14px ;
 	text-align: 		center !important;
 	color:				#606060 ;
@@ -610,7 +610,7 @@
 
 {
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
@@ -650,7 +650,7 @@
 {
 	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		center !important;
 	color:				#606060 ;
@@ -799,7 +799,7 @@
 {
 	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
@@ -839,7 +839,7 @@
 {
 	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		center ;
 	color:				#606060 ;
@@ -953,7 +953,7 @@
 {
 	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
@@ -993,7 +993,7 @@
 {
 	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		center ;
 	color:				#606060 ;
@@ -1030,7 +1030,7 @@
 {
 	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px !important;
 	text-align: 		center !important;
 	color:				#606060 !important;
@@ -1070,7 +1070,7 @@
 {
 	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		center ;
 	color:				#606060 ;
@@ -1228,7 +1228,7 @@
 *****************************************************/
 #menuSubUI a{
 	display: block;
-	font-family: 		"NotoSansKR",NotoSansKR;
+	font-family: 		'Noto Sans KR', sans-serif !important;,NotoSansKR;
 	font-size: 			14px;
 	text-align: 		left;
 	color:				#000;
@@ -1359,7 +1359,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
@@ -1393,7 +1393,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" !important;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
 	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
@@ -1428,7 +1428,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" !important;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
 	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
@@ -1463,7 +1463,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
@@ -1774,7 +1774,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
@@ -1807,7 +1807,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" !important;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
 	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
@@ -1945,7 +1945,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" !important;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
 	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
@@ -1980,7 +1980,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
@@ -2117,7 +2117,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
@@ -2151,7 +2151,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" !important;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
 	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
@@ -2255,7 +2255,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" ;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
 	font-size: 			14px ;
 	text-align: 		left ;
 	color:				#555555 ;
@@ -2289,7 +2289,7 @@
 
 {	
 	
-	/*font-family: 		"NotoSansKR" !important;*/
+	/*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
 	font-size: 			14px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
@@ -2599,7 +2599,7 @@
 *****************************************************/
 #menuTabUI a{
 	display: block;
-	font-family: 		"NotoSansKR",NotoSansKR;
+	font-family: 		'Noto Sans KR', sans-serif !important;,NotoSansKR;
 	font-size: 			14px;
 	text-align: 		left;
 	color:				#000;
