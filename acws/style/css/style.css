@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
 @font-face {
     font-family: 'Noto Sans KR';
-	src: url(../fonts/NotoSansKR-Regular.woff) format('woff');
-	src: url(../fonts/NotoSansKR-Medium.woff) format('woff');
+	src: url(/user/acws/style/fonts/NotoSansKR-Regular.woff) format('woff');
+	src: url(/user/acws/style/fonts/NotoSansKR-Medium.woff) format('woff');
 }
 /*Noto Sans KR 폰트 패밀리 끝*/
 /* Wrap-container */
