@@ -21,12 +21,13 @@
 }
 #header-container {
 	width: 100% !important;
+	background-color: #2B286F !important;
 }
 /* #footer-container{
 	width: 100% !important;
 } */
 #header-container, #pageTop{
-	height: 180px !important;
+	height: 214px !important;
 	z-index: 2;
 }
 /* 헤더 맨 위 바로가기 */
@@ -74,10 +75,13 @@
 	/* height: 50px !important; */
 	display: flex !important;
 	align-items: center !important;
-	justify-content: center !important;
-	border-top: solid 2px #ffffff;
+	justify-content: start !important;
 	box-shadow: 0px 4px 4px 0px #00000040;
 	z-index: 3;
+	margin-left: 135px;
+}
+#content-container {
+	width: 100vw !important;
 }
 
 /***EwhaNews ***/
