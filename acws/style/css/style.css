@@ -9,6 +9,7 @@
 /* Wrap-container */
 #jwWrapContent {
 	z-index: 1 !important;
+	position: relative;
 }
 /*�ָ޴� ����ó��*/
 #menuTopUI {
@@ -21,6 +22,7 @@
 #header-container {
 	width: 100% !important;
 	background-color: #2B286F !important;
+	position: relative;
 }
 /* #footer-container{
 	width: 100% !important;
@@ -31,34 +33,48 @@
 }
 /* 헤더 맨 위 바로가기 */
 #header-container > p:nth-of-type(2) {
-	display: block !important;
-	float: right !important;
-	width: 240px !important;
-	height: 7px !important;
+	display: flex !important;
+	justify-content: flex-end;
+	/* width: 800px !important; */
+	height: 20px !important;
+	padding-top: 65px;
+	top: 65px;
+	padding-right: 125px;
 }
 /* 헤더 맨위 바로가기 세부버튼*/
-#header-container > p:nth-of-type(2) > a {
-	width: 60px !important;
-	height: 7px !important;
+#header-container > p:nth-of-type(2) > a , i {
+	height: 20px !important;
 	display: block !important;
-	float: left;
+	float: right;
 	position: relative;
+	z-index: 3;
+	text-align: center;
+	color:#2B286F;
+	font-size: 16px;
+	font-weight: 500;
+	/* border-style: solid;
+	border-color: #2B286F; */
+	line-height: 1;
+	padding: 0px 0px 0px 10px !important;
 }
-#header-container > p:nth-of-type(2) > a:nth-of-type(1) > img {
-	left: 225px !important;
-	position: absolute;
+#header-container > p:nth-of-type(2) > i{
+	font-style: normal;
+} 
+#header-container > p:nth-of-type(2) > a:nth-of-type(1) {
+	/* right: 466.5px !important; */
+	/* border-width: 0px 3px 0px 0px; */
 }
-#header-container > p:nth-of-type(2) > a:nth-of-type(2) > img {
-	left: 163px !important;
-	position: absolute;
+#header-container > p:nth-of-type(2) > a:nth-of-type(2) {
+	/* right: 275px !important; */
+	/* border-width: 0px 3px 0px 0px; */
 }
-#header-container > p:nth-of-type(2) > a:nth-of-type(3) > img {
-	left: 106px !important;
-	position: absolute;
+#header-container > p:nth-of-type(2) > a:nth-of-type(3) {
+	/* right: 191px !important; */
+	/* border-width: 0px 3px 0px 0px; */
 }
-#header-container > p:nth-of-type(2) > a:nth-of-type(4) > img {
-	left: 65px !important;
-	position: absolute;
+#header-container > p:nth-of-type(2) > a:nth-of-type(4) {
+	/* right: 120px !important; */
+	/* border-width: 0px 0px 0px 0px; */
 }
 
 #header-container > div:nth-of-type(1) {
