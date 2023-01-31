@@ -25,10 +25,10 @@
 	border-width: 		0;
 	margin: 			;
 	padding:	 		;
-	/*
+	
 	width: 				px;
-	height: 			px;
-	*/
+	height: 			;
+	
 }
 #menuTopUI a:hover,
 #menuTopUI a.active{
@@ -52,12 +52,12 @@
 	width: 				;
 	height: 			;
 	margin: 			0;
-	padding:	 		0px 0px 0px 80px;
+	padding:	 		;
 	border-width: 		0;
 	border-style: 		solid;
 	
 	
-	/*1차메뉴의 경우 position값이 필요 없음*/
+
 }
 #menuTopUI #div ul#k2wiz_GNB{
 	position: relative;
@@ -76,7 +76,7 @@
 	/* width: 				0px; */
 	height: 			;
 	margin: 			0;
-	padding: 			0px 10px 0px 10px !important;
+	padding: 			; !important;
 	border-width: 		0;
 	border-style: 		solid;
 
@@ -89,7 +89,6 @@
 #menuTopUI ul#k2wiz_GNB li ul li.li_2{
 	position: relative;/*고정값*/
 	font-family: 		'Noto Sans KR', sans-serif !important;
-	float: left !important;
 	
 	
 }
@@ -120,8 +119,8 @@
 	background: 		url("")  left top no-repeat  !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			0px 18px 0px 18px  !important;
-	border-width: 	8px 6px	px px px px !important;
+	padding: 			px !important;
+	border-width: 		px px px px !important;
 	/* border-color: 		     !important; */
 	border-style: 		solid;
 	position: relative;/*고정값*/
@@ -134,7 +133,7 @@
  {
 	font-family: 		'Noto Sans KR', sans-serif !important;
 
- 	width: 				234px !important;
+ 	width: 				246px !important;
  	
  	
 	height: 			132px !important;
@@ -147,10 +146,10 @@
 	top: 				53px  !important;
 	
 	
-	left: 				-86px !important;
+	left: 				px !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			8px 6px !important;
+	padding: 			 !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
 	border-style: 		solid;
@@ -161,7 +160,7 @@
 #menuTopUI #div_26525360
  {
 	
-	width: 				234px !important;
+	width: 				246px !important;
  	
  	
 	height: 			44px !important;
@@ -174,10 +173,10 @@
 	top: 				53px  !important;
 	
 	
-	left: 				-82.3px !important;
+	left: 				px !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			8px 6px !important;
+	padding: 			 !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
 	border-style: 		solid;
@@ -194,7 +193,7 @@
 	
 	
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			8px 6px !important;
+	padding: 			 !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
 	border-style: 		solid;
@@ -205,7 +204,7 @@
 #menuTopUI #div_26525363
  {
 	
-	width: 				234px !important;
+	width: 				246px !important;
  	
  	
 	height: 			132px !important;
@@ -218,10 +217,10 @@
 	top: 				53px  !important;
 	
 	
-	left: 				-70px  !important;
+	left: 				px  !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			8px 6px !important;
+	padding: 			 !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
 	border-style: 		solid;
@@ -232,7 +231,7 @@
 #menuTopUI #div_26525372
  {
 	
-	width: 				234pxpx !important;
+	width: 				246pxpx !important;
  	
  	
 	height: 			90px !important;
@@ -245,10 +244,10 @@
 	top: 				53px  !important;
 	
 	
-	left: 				-101px  !important;
+	left: 				px  !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			8px 6px !important;
+	padding: 			 !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
 	border-style: 		solid;
@@ -259,7 +258,7 @@
 #menuTopUI #div_26525374
  {
 	
-	width: 				234px !important;
+	width: 				246px !important;
  	
  	
 	height: 			90px !important;
@@ -272,10 +271,10 @@
 	top: 				53px  !important;
 	
 	
-	left: 				-84.3px  !important;
+	left: 				px  !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			8px 6px !important;
+	padding: 			 !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
 	border-style: 		solid;
@@ -286,7 +285,7 @@
 #menuTopUI #div_26525379
  {
 	
-	width: 				234px !important;
+	width: 				246px !important;
  	
  	
 	height: 			90px !important;
@@ -299,10 +298,10 @@
 	top: 				53px  !important;
 	
 	
-	left: 				-103px  !important;
+	left: 				px  !important;
 	
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			8px 6px !important;
+	padding: 			 !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
 	border-style: 		solid;
@@ -315,11 +314,12 @@
 	
  	
 	background: 		url("") #fff left top no-repeat  !important;
+	width: 246px !important;
+	height: 90px !important;
 	
-	
-	left: 				-78.3px  !important;
+	left: 				px  !important;
 	margin: 			0px 0px 0px 0px  !important;
-	padding: 			8px 6px !important;
+	padding: 			 !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
 	border-style: 		solid;
@@ -347,11 +347,11 @@
 	text-align: 		center !important;
 	color:				 !important;
 	background: 		url("")  no-repeat left top !important;
-	margin: 			0px 100px 0px 0px !important;
+	width: 246px;
 	padding:	 		0px 0px 0px 0px !important;
 	border-style: solid;
-	border-color: 		    !important;
-	border-width: 		0px 0px 0px 0px !important;
+	border-color: #ffffff		    !important;
+	border-width: 		0px 1.5px 0px 1.5px !important;
 	
 	display: block;
 	/* width: 				px !important; */
@@ -386,11 +386,11 @@
 	text-align: 		center !important;
 	color:				 !important;
 	background: 		url("")  no-repeat left top !important;
-	margin: 			0px 100px 0px 0px !important;
+	width: 246px;
 	padding:	 		0px 0px 0px 0px !important;
 	border-style: solid;
-	border-color: 		    !important;
-	border-width: 		0px 0px 0px 0px !important;
+	border-color: #ffffff		    !important;
+	border-width: 		0px 1.5px 0px 0px !important;
 	
 	display: block;
 	width: 				px !important;
@@ -425,11 +425,11 @@
 	text-align: 		center !important;
 	color:				 !important;
 	background: 		url("")  no-repeat left top !important;
-	margin: 			0px 100px 0px 0px !important;
+	width: 246px;
 	padding:	 		0px 0px 0px 0px !important;
 	border-style: solid;
-	border-color: 		    !important;
-	border-width: 		0px 0px 0px 0px !important;
+	border-color: #ffffff		    !important;
+	border-width: 		0px 1.5px 0px 0px !important;
 	
 	display: block;
 	width: 				px !important;
@@ -464,11 +464,11 @@
 	text-align: 		center !important;
 	color:				 !important;
 	background: 		url("")  no-repeat left top !important;
-	margin: 			0px 100px 0px 0px !important;
+	width: 246px;
 	padding:	 		0px 0px 0px 0px !important;
 	border-style: solid;
-	border-color: 		    !important;
-	border-width: 		0px 0px 0px 0px !important;
+	border-color: #ffffff		    !important;
+	border-width: 		0px 1.5px 0px 0px !important;
 	
 	display: block;
 	width: 				px !important;
@@ -503,11 +503,11 @@
 	text-align: 		center !important;
 	color:				 !important;
 	background: 		url("")  no-repeat left top !important;
-	margin: 			0px 100px 0px 0px !important;
+	width: 246px;
 	padding:	 		0px 0px 0px 0px !important;
 	border-style: solid;
-	border-color: 		    !important;
-	border-width: 		0px 0px 0px 0px !important;
+	border-color: #ffffff		    !important;
+	border-width: 		0px 1.5px 0px 0px !important;
 	
 	display: block;
 	width: 				px !important;
@@ -545,11 +545,11 @@
 	margin: 			0px 0px 0px 0px !important;
 	padding:	 		0px 0px 0px 0px !important;
 	border-style: solid;
-	border-color: 		    !important;
-	border-width: 		0px 0px 0px 0px !important;
+	border-color: #ffffff		    !important;
+	border-width: 		0px 1.5px 0px 0px !important;
 	
 	display: block;
-	width: 				px !important;
+	width: 				246px !important;
 	height: 			px !important;
 }
 
