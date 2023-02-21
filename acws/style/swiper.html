@@ -71,20 +71,28 @@
         align-items: flex-start;
         box-sizing: border-box;
         margin: 0;
+        background: linear-gradient(
+          74.25deg,
+          #5e55b5 26.79%,
+          #669194 42.17%,
+          #6bb780 63.14%
+        );
       }
       .items1,
       .items2,
       .items3 {
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: 50px;
+        right: 50px;
+        /* 배너이미지 사이즈 */
         width: 865px;
-        height: 600px;
+        height: 500px;
+        border-radius: 2px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: right;
         box-sizing: border-box;
-        box-shadow: -6px 0px 8px 2px #22213333;
+        box-shadow: 0px 0px 18px 3px #1c134652;
       }
       .swiper-slide .items1 {
         background-image: url("/user/acws/slideBanner/slide1.jpg");
@@ -101,21 +109,32 @@
         position: absolute;
         width: 900px;
         height: 240px;
-        left: 102px;
-        top: 80px;
-      }
-      .info {
-        background: linear-gradient(
-          74.25deg,
-          #5e55b5 26.79%,
-          #669194 42.17%,
-          #6bb780 63.14%
-        );
-        position: absolute;
-        width: 1055px;
-        height: 600px;
         left: 0px;
         top: 0px;
+        padding-bottom: 200px;
+        padding-top: 80px;
+        padding-left: 120px;
+        padding-right: 40px;
+      }
+      .highlightEffect {
+        position: absolute;
+        width: 867px;
+        height: 500px;
+        top: 50px;
+        right: 50px;
+        border-radius: 2px;
+        background: linear-gradient(
+          89.84deg,
+          rgba(5, 1, 31, 0) -21.85%,
+          rgba(221, 221, 221, 0.0616514) -15.76%,
+          rgba(249, 249, 249, 0.47) 0.23%,
+          rgba(192, 191, 214, 0) 3%,
+          rgba(57, 55, 86, 0.149495) 19.43%,
+          rgba(48, 47, 79, 0.17) 28%,
+          #03021c 41.35%
+        );
+        z-index: 1;
+        mix-blend-mode: screen;
       }
       .swiper-pagination {
         position: absolute;
@@ -161,7 +180,7 @@
               <p class="slideDate"></p>
               <p class="slideSum"></p>
             </div>
-            <div class="info"></div>
+            <div class="highlightEffect"></div>
             <div class="items1"></div>
           </a>
         </div>
@@ -175,7 +194,7 @@
               <p class="slideDate"></p>
               <p class="slideSum"></p>
             </div>
-            <div class="info"></div>
+            <div class="highlightEffect"></div>
             <div class="items2"></div>
           </a>
         </div>
@@ -189,7 +208,7 @@
               <p class="slideDate"></p>
               <p class="slideSum"></p>
             </div>
-            <div class="info"></div>
+            <div class="highlightEffect"></div>
             <div class="items3"></div>
           </a>
         </div>
