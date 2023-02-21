@@ -858,6 +858,8 @@
 	display: block;
 	width: 			 214px ;
 	height: 			px ;
+	position: absolute;
+
 }
 
 
@@ -895,6 +897,8 @@
 	display: block;
 	width: 		 214px !important;
 	height: 			px !important;
+	position: absolute;
+	margin-left: 246.8px;
 }
 
 
@@ -935,6 +939,8 @@
 	display: block;
 	width: 		 214px ;
 	height: 			px ;
+	position: absolute;
+	margin-left: 246.8px;
 }
 
 
