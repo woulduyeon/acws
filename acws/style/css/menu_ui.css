@@ -89,6 +89,7 @@
 #menuTopUI ul#k2wiz_GNB li ul li.li_2{
 	position: relative;/*고정값*/
 	font-family: 		'Noto Sans KR', sans-serif !important;
+	height: 44px;
 	
 	
 }
@@ -940,7 +941,6 @@
 	width: 		 214px ;
 	height: 			px ;
 	position: absolute;
-	margin-left: 246.8px;
 }
 
 

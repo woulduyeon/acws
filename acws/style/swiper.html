@@ -106,60 +106,58 @@
       .info1,
       .info2,
       .info3 {
-        width: 720px;
-        height: 240px;
         padding-bottom: 200px;
         padding-right: 60px;
         padding-top: 70px;
         z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 720px;
       }
 
       /* 날짜 */
       #slideDate1,
       #slideDate2,
       #slideDate3 {
-        width: 720px;
-        height: 35px;
         font-family: "Noto Sans KR";
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.2em;
-        display: flex;
-        align-items: center;
         color: #ffffff;
         z-index: 1;
-        margin-bottom: 30px !important;
+        margin-bottom: 40px !important;
+        word-break: keep-all;
       }
       /* 타이틀 */
       #slideTitle1,
       #slideTitle2,
       #slideTitle3 {
-        width: 720px;
-        height: 50px;
         font-family: "Noto Sans KR";
         font-style: normal;
         font-weight: 500;
-        font-size: 32px;
+        font-size: 38px;
         line-height: 1.25em;
         color: #ffffff;
         z-index: 1;
-        margin-bottom: 0px !important;
+        margin-bottom: 10px !important;
+        word-break: keep-all;
       }
       /* 요약정보 */
       #slideSum1,
       #slideSum2,
       #slideSum3 {
-        width: 720px;
-        height: 300px;
         font-family: "Noto Sans KR";
         font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 1.25em;
+        font-weight: 400 !important;
+        font-size: 20px;
+        line-height: 1.5em;
         color: #ffffff;
         z-index: 1;
         margin: 0 !important;
+        padding-top: 10px;
       }
 
       /******* Swiper pagination*******/
@@ -199,11 +197,7 @@
       <div class="swiper-wrapper">
         <!-- 첫번째 슬라이드 -->
         <div class="swiper-slide">
-          <a
-            class="infoBox"
-            target="_top"
-            href="http://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59015433&siteId=acws&menuUIType=sub&dum=dum&boardId=59010723&page=1&command=albumView&boardSeq=59297667&chkBoxSeq=&categoryDepth="
-          >
+          <a class="infoBox link1" target="_top" href="">
             <div class="info1">
               <h1 id="slideDate1">text</h1>
               <h1 id="slideTitle1">text</h1>
@@ -214,11 +208,7 @@
         </div>
         <!-- 두번째 슬라이드 -->
         <div class="swiper-slide">
-          <a
-            class="infoBox"
-            target="_top"
-            href="http://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59015433&siteId=acws&menuUIType=sub&dum=dum&boardId=59010723&page=1&command=albumView&boardSeq=59297667&chkBoxSeq=&categoryDepth="
-          >
+          <a class="infoBox link2" target="_top" href="">
             <div class="info2">
               <h1 id="slideDate2">text</h1>
               <h1 id="slideTitle2">text</h1>
@@ -229,11 +219,7 @@
         </div>
         <!-- 세번째 슬라이드 -->
         <div class="swiper-slide">
-          <a
-            class="infoBox"
-            target="_top"
-            href="http://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59015433&siteId=acws&menuUIType=sub&dum=dum&boardId=59010723&page=1&command=albumView&boardSeq=59297667&chkBoxSeq=&categoryDepth="
-          >
+          <a class="infoBox link3" target="_top" href="">
             <div class="info3">
               <h1 id="slideDate3">text</h1>
               <h1 id="slideTitle3">text</h1>

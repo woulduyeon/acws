@@ -36,13 +36,17 @@
 #header-container > p:nth-of-type(2) {
 	display: flex !important;
 	justify-content: flex-end;
-	/* width: 800px !important; */
+	width: 886px !important;
 	height: 20px !important;
 	padding-top: 65px;
 	top: 65px;
-	padding-right: 125px;
+	padding-left: 880px;
+
 }
 /* 헤더 맨위 바로가기 세부버튼*/
+.indexMenu {
+	display: block !important;
+}
 #header-container > p:nth-of-type(2) > a , i {
 	height: 20px !important;
 	display: block !important;
@@ -98,6 +102,7 @@
 }
 #content-container {
 	width: 100vw !important;
+	height: 1024px;
 }
 
 /***EwhaNews ***/
@@ -112,6 +117,9 @@
 }
 
 /*** left menu layout ***/
+#left-container {
+	width: 36vw !important;
+}
 #neo_lmenubg
 {
 	position:absolute; width:272px; top:190px;
@@ -125,6 +133,8 @@
 
 #mid-container{
 	z-index: 2;
+	display: flex;
+	justify-content: center;
 }
 #mid-container div#content-container {
 	top:190px;
