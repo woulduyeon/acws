@@ -7,10 +7,13 @@
 }
 /*Noto Sans KR 폰트 패밀리 끝*/
 /* Wrap-container */
+html {
+	/* overflow-x: hidden !important; */
+}
 #jwWrapContent {
 	z-index: 1 !important;
 	position: relative;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 /*�ָ޴� ����ó��*/
 #menuTopUI {
@@ -21,7 +24,8 @@
 	z-index: 2;
 }
 #header-container {
-	width: 100% !important;
+	/* width: 100% !important; */
+	width: auto !important;
 	background-color: #2B286F !important;
 	position: relative;
 }
@@ -36,11 +40,12 @@
 #header-container > p:nth-of-type(2) {
 	display: flex !important;
 	justify-content: flex-end;
-	width: 886px !important;
+	/* width: 886px !important; */
 	height: 20px !important;
 	padding-top: 65px;
 	top: 65px;
 	padding-left: 880px;
+	margin-right: 135px;
 
 }
 /* 헤더 맨위 바로가기 세부버튼*/
@@ -87,7 +92,7 @@
 	background-color: #ffffff !important;
 }
 #header-container > div:nth-of-type(2) {
-	width: 1600px !important;
+	/* width: 1600px !important; */
 	position: absolute;
 	box-sizing: border-box;
 	background-color: #2B286F !important;
@@ -101,8 +106,12 @@
 	margin-left: 135px;
 }
 #content-container {
-	width: 100vw !important;
+	width: 100% !important;
 	height: 1024px;
+	/* padding: 0px 135px; */
+	display: flex;
+	justify-content: center;
+	position: relative;
 }
 
 /***EwhaNews ***/
