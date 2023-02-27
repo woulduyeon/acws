@@ -37,7 +37,7 @@ $(document).ready(function () {
     //날짜3
     $("#slideDate3").text(""),
     //제목3
-    $("#slideTitle3").text("이화여자대학교 아시아여성학센터 소개 리플렛"),
+    $("#slideTitle3").text("이화여자대학교 아시아여성학센터 소개"),
     // 요약3
     $("#slideSum3").text(
       "아시아여성학센터(Asian Center for Women’s Studies, 이하 ACWS)는 여성주의 지식의 장을 확장하고, 아시아여성학의 비판적인 이론화 작업에 기반한 연구 및 교육을 전개하기 위해 1995년 5월 설립되었다..."
