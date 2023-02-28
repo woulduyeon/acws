@@ -31,7 +31,7 @@ $(document).ready(function () {
       "이화여자대학교 아시아여성학센터에서 문화 분야의 새로운 장을 개척한 근현대 여성 인물을 발굴, 소개합니다. (문화체육관광부 지원사업)"
     ),
     //링크2
-    $(".link1").attr("href", "https://www.instagram.com/womenpathfinder/"),
+    $(".link2").attr("href", "https://www.instagram.com/womenpathfinder/"),
     //두번째 슬라이드 끝
     // 세번째 슬라이드
     //날짜3
@@ -43,7 +43,10 @@ $(document).ready(function () {
       "아시아여성학센터(Asian Center for Women’s Studies, 이하 ACWS)는 여성주의 지식의 장을 확장하고, 아시아여성학의 비판적인 이론화 작업에 기반한 연구 및 교육을 전개하기 위해 1995년 5월 설립되었다..."
     ),
     //링크3
-    $(".link1").attr("href", "https://www.instagram.com/womenpathfinder/");
+    $(".link3").attr(
+      "href",
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=26525355&siteId=acws&menuUIType=top"
+    );
   //세번째 슬라이드 끝
 });
 // 슬라이드 끝

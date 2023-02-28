@@ -175,6 +175,10 @@ i {
   background-color: #39383b;
   padding: 30px 0 0 17px;
 }
+#footer-container {
+  width: 100% !important;
+  margin: 0px 135px !important;
+}
 #footer .privacy {
   color: #999;
 }

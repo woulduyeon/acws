@@ -76,8 +76,8 @@
 	/* width: 				0px; */
 	height: 			;
 	margin: 			0;
-	padding: 			; !important;
-	border-width: 		0;
+	padding: 			!important;
+	border-width: 		0px;
 	border-style: 		solid;
 
 
@@ -141,7 +141,7 @@
  	
 	background: 		url("") #fff left top no-repeat  !important;
 	
-	box-shadow: 0px 0px 6px 0px #00000033;
+	box-shadow: 0px 0px 6px 0px #00000054;
 	
 	
 	top: 				53px  !important;
@@ -168,7 +168,7 @@
  	
 	background: 		url("") #fff left top no-repeat  !important;
 	
-	box-shadow: 0px 0px 6px 0px #00000033;
+	box-shadow: 0px 0px 6px 0px #00000054;
 	
 	
 	top: 				53px  !important;
@@ -212,7 +212,7 @@
  	
 	background: 		url("") #fff left top no-repeat  !important;
 	
-	box-shadow: 0px 0px 6px 0px #00000033;
+	box-shadow: 0px 0px 6px 0px #00000054;
 	
 	
 	top: 				53px  !important;
@@ -239,7 +239,7 @@
  	
 	background: 		url("") #fff left top no-repeat  !important;
 	
-	box-shadow: 0px 0px 6px 0px #00000033;
+	box-shadow: 0px 0px 6px 0px #00000054;
 	
 	
 	top: 				53px  !important;
@@ -266,7 +266,7 @@
  	
 	background: 		url("") #fff left top no-repeat  !important;
 	
-	box-shadow: 0px 0px 6px 0px #00000033;
+	box-shadow: 0px 0px 6px 0px #00000054;
 	
 	
 	top: 				53px  !important;
@@ -293,7 +293,7 @@
  	
 	background: 		url("") #fff left top no-repeat  !important;
 	
-	box-shadow: 0px 0px 6px 0px #00000033;
+	box-shadow: 0px 0px 6px 0px #00000054;
 	
 	
 	top: 				53px  !important;
@@ -562,7 +562,7 @@
 
 {
 	
-	z-index: 99999;
+	z-index: 12;
 	font-weight: 500;	
 	color:	#ffffff  !important;
 	/* text-decoration: underline wavy #ffffff 1.25px; */
@@ -1334,7 +1334,7 @@
 	
 	background: 		url("")  left top no-repeat  !important;
 	
-	margin: 			0px 0px 0px; 0px  !important;
+	margin: 			0px 0px 0px 0px  !important;
 	padding: 			0px 0px 0px 0px  !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
@@ -1348,7 +1348,7 @@
 	
 	background: 		url("")  left top no-repeat  !important;
 	
-	margin: 			0px 0px 0px; 0px  !important;
+	margin: 			0px 0px 0px 0px  !important;
 	padding: 			0px 0px 0px 0px  !important;
 	border-width: 		px px px px !important;
 	border-color: 		     !important;
@@ -2704,9 +2704,8 @@
 	
 	background: 		url("") #FFFFFF left top no-repeat  !important;
 	
-	box-shadow: 0px 0px 6px 0px #00000033;
-	
-	margin: 			0px 0px 0px; 0px  !important;
+	box-shadow: 0px 0px 6px 0px #00000054;
+	margin: 			0px 0px 0px 0px  !important;
 	padding: 			0px 0px 0px 0px  !important;
 	border-width: 		px px px px !important;
 	border-color: 		#FFFFFF   #FFFFFF  !important;
