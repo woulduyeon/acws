@@ -78,6 +78,9 @@
         text-decoration: none;
       }
       /****** 배너이미지 ******/
+      .item {
+        background-size: contain;
+      }
       .items1,
       .items2,
       .items3 {
@@ -197,35 +200,50 @@
       <div class="swiper-wrapper">
         <!-- 첫번째 슬라이드 -->
         <div class="swiper-slide">
-          <a class="infoBox link1" target="_top" href="">
+          <a
+            class="infoBox link1"
+            target="_top"
+            href=""
+            style="cursor: pointer"
+          >
             <div class="info1">
-              <h1 id="slideDate1">text</h1>
-              <h1 id="slideTitle1">text</h1>
+              <pre id="slideDate1">text</pre>
+              <pre id="slideTitle1">text</pre>
               <h1 id="slideSum1">text</h1>
             </div>
-            <div class="items1"></div>
+            <div class="item items1"></div>
           </a>
         </div>
         <!-- 두번째 슬라이드 -->
         <div class="swiper-slide">
-          <a class="infoBox link2" target="_top" href="">
+          <a
+            class="infoBox link2"
+            target="_top"
+            href=""
+            style="cursor: pointer"
+          >
             <div class="info2">
-              <h1 id="slideDate2">text</h1>
-              <h1 id="slideTitle2">text</h1>
+              <pre id="slideDate2">text</pre>
+              <pre id="slideTitle2">text</pre>
               <h1 id="slideSum2">text</h1>
             </div>
-            <div class="items2"></div>
+            <div class="item items2"></div>
           </a>
         </div>
         <!-- 세번째 슬라이드 -->
         <div class="swiper-slide">
-          <a class="infoBox link3" target="_top" href="">
+          <a
+            class="infoBox link3"
+            target="_top"
+            href=""
+            style="cursor: pointer"
+          >
             <div class="info3">
-              <h1 id="slideDate3">text</h1>
-              <h1 id="slideTitle3">text</h1>
+              <pre id="slideDate3">text</pre>
+              <pre id="slideTitle3">text</pre>
               <h1 id="slideSum3">text</h1>
             </div>
-            <div class="items3"></div>
+            <div class="item items3"></div>
           </a>
         </div>
       </div>

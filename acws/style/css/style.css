@@ -34,6 +34,10 @@
   height: 210px !important;
   z-index: 2;
 }
+/* 기존로고 지우기 */
+#header-container > p:nth-of-type(1) > a > img {
+  display: none;
+}
 /* 헤더 맨 위 바로가기 */
 #header-container > p:nth-of-type(2) {
   display: flex !important;
@@ -46,9 +50,9 @@
   margin-right: 135px;
 }
 /* 헤더 맨위 바로가기 세부버튼*/
-.indexMenu {
+/* .indexMenu {
   display: block !important;
-}
+} */
 #header-container > p:nth-of-type(2) > a,
 i {
   height: 20px !important;
@@ -86,7 +90,7 @@ i {
 }
 
 #header-container > div:nth-of-type(1) {
-  height: 130px !important;
+  height: 0px !important;
   background-color: #ffffff !important;
 }
 #header-container > div:nth-of-type(2) {
@@ -176,7 +180,7 @@ i {
   padding: 30px 0 0 17px;
 }
 #footer-container {
-  width: 100% !important;
+  width: auto !important;
   margin: 0px 135px !important;
 }
 #footer .privacy {
