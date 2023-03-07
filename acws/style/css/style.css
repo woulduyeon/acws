@@ -105,13 +105,13 @@ i {
   min-width: 1490px;
 }
 #content-container {
-  width: 100% !important;
   height: px !important;
   margin-bottom: 150px;
   /* padding: 0px 135px; */
   display: flex;
   justify-content: center;
   position: relative;
+  width: 100% !important;
 }
 
 /***EwhaNews ***/
@@ -121,13 +121,14 @@ i {
 
 /*** tabBoard ***/
 .tabBoardWrap.skin_001 .tabBoardBox .tabBoardList .tabBoardLi.on .tabBoardTab {
-  border-color: #eb5177 !important;
-  background-color: #eb5177 !important;
+  border-color: #2b286f !important;
+  background-color: #2b286f !important;
+  color: #fff !important;
 }
 
 /*** left menu layout ***/
 #left-container {
-  width: 36vw !important;
+  width: 272px !important;
 }
 #neo_lmenubg {
   position: absolute;
@@ -152,17 +153,15 @@ i {
   background-repeat: no-repeat;
   height: 1200px !important;
 }
-#mid-container div#content-container > div:nth-of-type(1) {
-  top: 100px !important;
-}
-#mid-container div#content-container > div:nth-of-type(2) {
-  top: 30px !important;
+#pagelocationWrap {
+  top: -195px;
 }
 .neoPageContent {
+  width: 752px;
+}
+#contentsWrap {
   position: absolute;
-  top: 190px;
-  width: 715px;
-  left: 0px;
+  top: -175px !important;
 }
 
 /*** footer layout ***/
@@ -205,6 +204,10 @@ i {
 }
 
 /*�ٹ��Խ��� ���� ����*/
+#album-container {
+  position: absolute;
+  top: 290px !important;
+}
 #album-container div ul li dl dt a {
   color: #7b7b7b !important;
 }

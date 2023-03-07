@@ -79,7 +79,18 @@
       }
       /****** 배너이미지 ******/
       .item {
-        background-size: contain;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+      }
+
+      .swiper-slide .items1 {
+        background-image: url("/user/acws/slideBanner/slide1.jpg");
+      }
+      .swiper-slide .items2 {
+        background-image: url("/user/acws/slideBanner/slide2.jpg");
+      }
+      .swiper-slide .items3 {
+        background-image: url("/user/acws/slideBanner/slide3.jpg");
       }
       .items1,
       .items2,
@@ -93,16 +104,8 @@
         background-repeat: no-repeat;
         background-position: right;
         box-sizing: border-box;
-        box-shadow: 0px 0px 10px 2px #2314663a;
-      }
-      .swiper-slide .items1 {
-        background-image: url("/user/acws/slideBanner/slide1.jpg");
-      }
-      .swiper-slide .items2 {
-        background-image: url("/user/acws/slideBanner/slide2.jpg");
-      }
-      .swiper-slide .items3 {
-        background-image: url("/user/acws/slideBanner/slide3.jpg");
+        background-position-x: center;
+        /* box-shadow: 0px 0px 10px 2px #2314663a; */
       }
       /****** 배너 텍스트 ******/
 
