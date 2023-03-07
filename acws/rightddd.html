@@ -32,11 +32,11 @@
     <iframe
       style="
         left: 12px;
-        top: 100px;
+        top: 258px;
         width: 102px;
         height: 40px;
         position: absolute;
-        z-index: 10;
+        z-index: 9999;
       "
       id="widgetvisualId"
       height="100%"
@@ -56,16 +56,14 @@
         width: 100vw;
         height: 600px;
         position: absolute;
-        z-index: 10;
+        z-index: 9999;
       "
-      id="widgetvisualId"
       height="100%"
       marginheight="0"
       src="/user/acws/style/swiper.html"
       frameborder="0"
       width="100%"
       allowtransparency=""
-      name="widgetvisual"
       marginwidth="0"
       scrolling="no"
     ></iframe>
@@ -109,7 +107,14 @@
             line-height: 30px;
           "
         >
-          <h2 style="font-size: 16px; text-align: center; font-weight: 400">
+          <h2
+            style="
+              font-size: 16px;
+              text-align: center;
+              font-weight: 400;
+              cursor: default;
+            "
+          >
             바로가기
           </h2>
         </div>
@@ -138,7 +143,7 @@
               text-align: center;
               font-size: 24px;
               border-right: solid 1px #bebebe;
-              min-width: 890px;
+              min-width: 600px;
             "
           >
             <a
@@ -156,6 +161,9 @@
                 font-family: 'Noto Sans KR', sans-serif !important;
                 font-weight: 700;
                 color: #2b286f !important;
+                text-align: center;
+                min-width: 600px;
+                cursor: pointer;
               "
               href="http://my.ewha.ac.kr/awsewha/"
               target="_blank"
@@ -172,7 +180,7 @@
               color: #2b286f !important;
               text-align: center;
               font-size: 24px;
-              min-width: 890px;
+              min-width: 600px;
             "
           >
             <a
@@ -190,6 +198,9 @@
                 font-family: 'Noto Sans KR', sans-serif !important;
                 font-weight: 700;
                 color: #2b286f !important;
+                text-align: center;
+                min-width: 600px;
+                cursor: pointer;
               "
               href="https://www.tandfonline.com/journals/rajw20"
               target="_blank"
@@ -223,7 +234,14 @@
             line-height: 30px;
           "
         >
-          <h2 style="font-size: 16px; text-align: center; font-weight: 400">
+          <h2
+            style="
+              font-size: 16px;
+              text-align: center;
+              font-weight: 400;
+              cursor: default;
+            "
+          >
             주요사업
           </h2>
         </div>
@@ -255,6 +273,7 @@
               overflow: hidden;
               min-width: 350px;
               background: #fff;
+              cursor: default;
             "
           >
             <a
@@ -482,7 +501,8 @@
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
       crossorigin="anonymous"
     ></script>
-
+    <!-- menuUI JS -->
+    <script src="/user/acws/style/css/js/menu_ui.js" type="javascript"></script>
     <!-- 주요사업 텍스트 JS-->
     <script
       type="text/javascript"

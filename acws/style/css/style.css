@@ -9,7 +9,7 @@
 /* Wrap-container */
 #jwWrapContent {
   z-index: 1 !important;
-  position: relative;
+  /* position: relative; */
   /* overflow: hidden; */
 }
 /*�ָ޴� ����ó��*/
@@ -33,10 +33,6 @@
 #pageTop {
   height: 210px !important;
   z-index: 2;
-}
-/* 기존로고 지우기 */
-#header-container > p:nth-of-type(1) > a > img {
-  display: none;
 }
 /* 헤더 맨 위 바로가기 */
 #header-container > p:nth-of-type(2) {
@@ -90,7 +86,7 @@ i {
 }
 
 #header-container > div:nth-of-type(1) {
-  height: 0px !important;
+  height: 130px !important;
   background-color: #ffffff !important;
 }
 #header-container > div:nth-of-type(2) {
