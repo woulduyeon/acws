@@ -105,13 +105,15 @@ i {
   min-width: 1490px;
 }
 #content-container {
+  width: 100% !important;
   height: px !important;
   margin-bottom: 150px;
   /* padding: 0px 135px; */
   display: flex;
   justify-content: center;
   position: relative;
-  width: 100% !important;
+  background-color: #ffffff 0 190px;
+  margin-left: 0px !important;
 }
 
 /***EwhaNews ***/
@@ -121,47 +123,56 @@ i {
 
 /*** tabBoard ***/
 .tabBoardWrap.skin_001 .tabBoardBox .tabBoardList .tabBoardLi.on .tabBoardTab {
-  border-color: #2b286f !important;
-  background-color: #2b286f !important;
-  color: #fff !important;
+  border-color: #eb5177 !important;
+  background-color: #eb5177 !important;
+}
+
+/*** mid-container ***/
+#mid-container {
+  width: 1012px !important;
+  display: flex;
+  justify-content: center;
+}
+
+/*** left-container ***/
+/* #left-container {
+  margin-left: 135px !important;
+} */
+#left-container > div:nth-of-type(2) {
+  width: 272px !important;
+}
+#left-container > div:nth-of-type(3) {
+  left: 24px !important;
 }
 
 /*** left menu layout ***/
-#left-container {
-  width: 272px !important;
-}
 #neo_lmenubg {
   position: absolute;
   width: 272px;
   top: 190px;
   height: 100%;
-  background: url("/user/template0201/mycodyimages/left_menu_bg.png") 0 0;
+  background-color: #ffffff;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
   background-repeat: no-repeat;
   margin-left: 0px;
 }
-
 /*** pageContent layout ***/
 
-#mid-container {
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-}
 #mid-container div#content-container {
-  top: 190px;
-  background: url("/user/template0201/mycodyimages/sub_bg.png") 0 0px;
+  background: url("/user/template0201/mycodyimages/sub_bg.png") 0 190px;
   background-repeat: no-repeat;
-  height: 1200px !important;
 }
-#pagelocationWrap {
-  top: -195px;
-}
+
 .neoPageContent {
-  width: 752px;
-}
-#contentsWrap {
   position: absolute;
-  top: -175px !important;
+  top: 300px;
+  width: 715px;
+  left: 0px;
+}
+/*** quick menu widget ***/
+#jwWrapQuick {
+  right: 135px !important;
 }
 
 /*** footer layout ***/
@@ -173,10 +184,6 @@ i {
 #footer {
   background-color: #39383b;
   padding: 30px 0 0 17px;
-}
-#footer-container {
-  width: auto !important;
-  margin: 0px 135px !important;
 }
 #footer .privacy {
   color: #999;
@@ -204,10 +211,6 @@ i {
 }
 
 /*�ٹ��Խ��� ���� ����*/
-#album-container {
-  position: absolute;
-  top: 290px !important;
-}
 #album-container div ul li dl dt a {
   color: #7b7b7b !important;
 }
