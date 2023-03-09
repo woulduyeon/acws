@@ -172,7 +172,11 @@ i {
 }
 /*** quick menu widget ***/
 #jwWrapQuick {
-  right: 135px !important;
+  left: 56.5% !important;
+}
+/*** location-title ***/
+#pagelocationTitle > strong {
+  font-weight: 500 !important;
 }
 
 /*** footer layout ***/
@@ -269,3 +273,21 @@ i {
   background: url("/Web-home/user/profile/images/title_gray.gif") left 8px
     no-repeat !important;
 } /*5����Ų���γ��� ���� ����*/
+
+/*** history-page ***/
+.history-container .skin_005 .category {
+  border-color: #d5d5d5 #d5d5d5 #2b286f !important;
+  height: 42px !important;
+}
+.history-container .skin_005 .category ul li {
+  margin-top: 2px;
+}
+.history-container .skin_005 .category ul li a {
+  border-color: #2b286f !important;
+}
+.history-container .skin_005 .category ul li a .text {
+  color: #2b286f !important;
+}
+.history-container .skin_005 .category ul li a.on .arrow {
+  display: none !important;
+}

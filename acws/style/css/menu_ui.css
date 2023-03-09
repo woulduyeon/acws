@@ -1,4 +1,4 @@
-/*Noto Sans KR 폰트 패밀리*/
+/*Noto Sans KR 폰트 패밀리*/ 12px
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap");
 @font-face {
   font-family: "Noto Sans KR";
@@ -832,7 +832,7 @@
   text-indent: -500 !important;
   font-size: 0 !important;
 
-  width: 180px !important;
+  width: 210px !important;
   height: 72px !important;
 }
 
@@ -842,7 +842,7 @@
   text-indent: -500 !important;
   font-size: 0 !important;
 
-  width: 180px !important;
+  width: 210px !important;
   height: 72px !important;
 }
 
@@ -852,7 +852,7 @@
   text-indent: -500 !important;
   font-size: 0 !important;
 
-  width: 180px !important;
+  width: 210px !important;
   height: 72px !important;
 }
 
@@ -862,7 +862,7 @@
   text-indent: -500 !important;
   font-size: 0 !important;
 
-  width: 180px !important;
+  width: 210px !important;
   height: 72px !important;
 }
 
@@ -872,7 +872,7 @@
   text-indent: -500 !important;
   font-size: 0 !important;
 
-  width: 180px !important;
+  width: 210px !important;
   height: 72px !important;
 }
 
@@ -882,7 +882,7 @@
   text-indent: -500 !important;
   font-size: 0 !important;
 
-  width: 180px !important;
+  width: 210px !important;
   height: 72px !important;
 }
 
@@ -892,7 +892,7 @@
   text-indent: -500 !important;
   font-size: 0 !important;
 
-  width: 180px !important;
+  width: 210px !important;
   height: 72px !important;
 }
 
@@ -902,7 +902,7 @@
   text-indent: -500 !important;
   font-size: 0 !important;
 
-  width: 180px !important;
+  width: 210px !important;
   height: 72px !important;
 }
 
@@ -963,7 +963,7 @@
 /*2단계 영역 공통*/
 #menuSubUI div.div_2 {
   width: 214px;
-  margin: 20px 0;
+  margin: 0px 0;
   padding: 0;
   border-width: 0;
   border-style: solid;
@@ -1031,13 +1031,13 @@
   color: #555555;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top;
   margin: -1px 0px 0px 0px;
-  padding: 15px 0px 0px 10px;
+  padding: 15px 0px 0px 20px;
   border-style: solid;
   border-color: ;
   border-width: 0px 0px 0px 0px;
 
   width: 214px;
-  height: 26px;
+  height: 27px;
   line-height: 12px;
 }
 
@@ -1063,7 +1063,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 214px !important;
-  height: 26px !important;
+  height: 27px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_26525356:hover,
@@ -1079,7 +1079,7 @@
   /*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
   font-size: 16px !important;
   text-align: left !important;
-  color: #ffffff !important;
+  color: #2b286f !important;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top !important;
   margin: -1px 0px 0px 0px !important;
   padding: 15px 0px 0px 20px !important;
@@ -1088,7 +1088,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 214px !important;
-  height: 26px !important;
+  height: 27px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_26525361:hover,
@@ -1107,13 +1107,13 @@
   color: #555555;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top;
   margin: -1px 0px 0px 0px;
-  padding: 15px 0px 0px 10px;
+  padding: 15px 0px 0px 20px;
   border-style: solid;
   border-color: ;
   border-width: 0px 0px 0px 0px;
 
   width: 214px;
-  height: 26px;
+  height: 27px;
   line-height: 12px;
 }
 
@@ -1348,14 +1348,16 @@
   color: #555555;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top;
   margin: -1px 0px 0px 0px;
-  padding: 15px 0px 0px 10px;
+  padding: 15px 0px 0px 20px;
   border-style: solid;
   border-color: ;
   border-width: 0px 0px 0px 0px;
 
   width: 214px;
-  height: 26px;
+  height: 27px;
   line-height: 12px;
+
+  font-family: "Noto Sans KR", sans-serif !important;
 }
 
 #menuSubUI #div_26525363 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1371,7 +1373,7 @@
   /*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
   font-size: 16px !important;
   text-align: left !important;
-  color: #ffffff !important;
+  color: #2b286f !important;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top !important;
   margin: -1px 0px 0px 0px !important;
   padding: 15px 0px 0px 20px !important;
@@ -1380,7 +1382,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 214px !important;
-  height: 26px !important;
+  height: 27px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_26525364:hover,
@@ -1476,7 +1478,7 @@
   /*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
   font-size: 16px !important;
   text-align: left !important;
-  color: #ffffff !important;
+  color: #2b286f !important;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top !important;
   margin: -1px 0px 0px 0px !important;
   padding: 15px 0px 0px 20px !important;
@@ -1485,7 +1487,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 214px !important;
-  height: 26px !important;
+  height: 27px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_26525373:hover,
@@ -1504,13 +1506,13 @@
   color: #555555;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top;
   margin: -1px 0px 0px 0px;
-  padding: 15px 0px 0px 10px;
+  padding: 15px 0px 0px 20px;
   border-style: solid;
   border-color: ;
   border-width: 0px 0px 0px 0px;
 
   width: 214px;
-  height: 26px;
+  height: 27px;
   line-height: 12px;
 }
 
@@ -1610,13 +1612,13 @@
   color: #555555;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top;
   margin: -1px 0px 0px 0px;
-  padding: 15px 0px 0px 10px;
+  padding: 15px 0px 0px 20px;
   border-style: solid;
   border-color: ;
   border-width: 0px 0px 0px 0px;
 
   width: 214px;
-  height: 26px;
+  height: 27px;
   line-height: 12px;
 }
 
@@ -1642,7 +1644,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 214px !important;
-  height: 26px !important;
+  height: 27px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_26525375:hover,
@@ -1715,13 +1717,13 @@
   color: #555555;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top;
   margin: -1px 0px 0px 0px;
-  padding: 15px 0px 0px 10px;
+  padding: 15px 0px 0px 20px;
   border-style: solid;
   border-color: ;
   border-width: 0px 0px 0px 0px;
 
   width: 214px;
-  height: 26px;
+  height: 27px;
   line-height: 12px;
 }
 
@@ -1747,7 +1749,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 214px !important;
-  height: 26px !important;
+  height: 27px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_26525380:hover,
@@ -1772,7 +1774,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 214px !important;
-  height: 26px !important;
+  height: 27px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_26525389:hover,
@@ -1791,13 +1793,13 @@
   color: #555555;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top;
   margin: -1px 0px 0px 0px;
-  padding: 15px 0px 0px 10px;
+  padding: 15px 0px 0px 20px;
   border-style: solid;
   border-color: ;
   border-width: 0px 0px 0px 0px;
 
   width: 214px;
-  height: 26px;
+  height: 27px;
   line-height: 12px;
 }
 
@@ -1823,7 +1825,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 214px !important;
-  height: 26px !important;
+  height: 27px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_26525394:hover,
@@ -1842,13 +1844,13 @@
   color: #555555;
   background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top;
   margin: -1px 0px 0px 0px;
-  padding: 15px 0px 0px 10px;
+  padding: 15px 0px 0px 20px;
   border-style: solid;
   border-color: ;
   border-width: 0px 0px 0px 0px;
 
   width: 214px;
-  height: 26px;
+  height: 27px;
   line-height: 12px;
 }
 
@@ -1873,8 +1875,8 @@
   border-color: #a7a7a7 !important;
   border-width: 0px 0px 1px 0px !important;
 
-  width: 214px !important;
-  height: 35px !important;
+  width: 201px !important;
+  height: 50px !important;
 }
 
 #menuSubUI a#k2wiz_GNB_32320746:hover,
