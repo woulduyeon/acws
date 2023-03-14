@@ -334,3 +334,7 @@ i {
 .history-container .skin_005 .category ul li a.on .arrow {
   display: none !important;
 }
+/*** widget set ***/
+.wiz_setmenu {
+  top: 30px !important;
+}
