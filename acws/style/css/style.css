@@ -6,6 +6,10 @@
   src: url(/user/acws/style/fonts/NotoSansKR-Medium.woff) format("woff");
 }
 /*Noto Sans KR 폰트 패밀리 끝*/
+* {
+  font-family: "Noto Sans KR", sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+}
 /* Wrap-container */
 #jwWrapContent {
   z-index: 1 !important;
@@ -129,7 +133,7 @@ i {
 
 /*** mid-container ***/
 #mid-container {
-  width: 1012px !important;
+  width: 1022px !important;
   display: flex;
   justify-content: center;
 }
@@ -152,16 +156,18 @@ i {
   top: 190px;
   height: 100%;
   background-color: #ffffff;
-  border-top-left-radius: 18px;
-  border-bottom-left-radius: 18px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
   background-repeat: no-repeat;
   margin-left: 0px;
 }
 /*** pageContent layout ***/
 
 #mid-container div#content-container {
-  background: url("/user/template0201/mycodyimages/sub_bg.png") 0 190px;
+  background: url("/user/acws/mycodyimages/sub_bg.png") 0 190px;
   background-repeat: no-repeat;
+  font-size: min(1.2em, 14px) !important;
+  line-height: 1.6 !important;
 }
 
 .neoPageContent {
@@ -169,10 +175,17 @@ i {
   top: 300px;
   width: 715px;
   left: 0px;
+  line-height: 1.6 !important;
 }
+
+/*** board container type ***/
+#board-container {
+  font-size: min(1.2em, 14px) !important;
+}
+
 /*** quick menu widget ***/
 #jwWrapQuick {
-  left: 56.5% !important;
+  left: 50.5% !important;
 }
 /*** location-title ***/
 #pagelocationTitle > strong {

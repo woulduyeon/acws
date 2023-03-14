@@ -1,4 +1,4 @@
-/*Noto Sans KR 폰트 패밀리*/ 12px
+/*Noto Sans KR 폰트 패밀리*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap");
 @font-face {
   font-family: "Noto Sans KR";
@@ -12,6 +12,7 @@
 *****************************************************/
 * {
   font-family: "Noto Sans KR", sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 #menuTopUI a {
   display: block;
@@ -1139,7 +1140,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1166,7 +1167,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1193,7 +1194,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1220,7 +1221,7 @@
   border-width: 0px 0px 0px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1247,7 +1248,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1300,7 +1301,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1327,7 +1328,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1407,7 +1408,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1434,7 +1435,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1564,7 +1565,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1591,7 +1592,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1669,7 +1670,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1696,7 +1697,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1902,7 +1903,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
@@ -1929,7 +1930,7 @@
   border-width: 0px 0px 1px 0px !important;
 
   width: 201px !important;
-  height: 21.25px !important;
+  /* height: 21.25px !important; */
   line-height: 1;
 }
 
