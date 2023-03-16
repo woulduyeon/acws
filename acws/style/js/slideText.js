@@ -23,12 +23,10 @@ $(document).ready(function () {
     //날짜2
     $("#slideDate2").text(""),
     //제목2
-    $("#slideTitle2").text(
-      "새 장을 열다: 문화 분야 여성 개척자들 [카드뉴스 연재]"
-    ),
+    $("#slideTitle2").text("'새 장을 열다: 문화 분야 여성 개척자들'카드뉴스"),
     //요약2
     $("#slideSum2").text(
-      "이화여자대학교 아시아여성학센터에서 문화 분야의 새로운 장을 개척한 근현대 여성 인물을 발굴, 소개합니다. (문화체육관광부 지원사업)"
+      "문화 분야의 새로운 장을 개척한 근현대 여성 인물을 발굴하고 소개합니다."
     ),
     //링크2
     $(".link2").attr("href", "https://www.instagram.com/womenpathfinder/"),
@@ -40,7 +38,7 @@ $(document).ready(function () {
     $("#slideTitle3").text("이화여자대학교 아시아여성학센터 소개"),
     // 요약3
     $("#slideSum3").text(
-      "아시아여성학센터(Asian Center for Women’s Studies, 이하 ACWS)는 여성주의 지식의 장을 확장하고, 아시아여성학의 비판적인 이론화 작업에 기반한 연구 및 교육을 전개하기 위해 1995년 5월 설립되었다..."
+      "아시아여성학의 비판적인 이론화 작업에 기반한 연구, 교육, 출판, 협력 사업을 진행하고 있습니다."
     ),
     //링크3
     $(".link3").attr(
