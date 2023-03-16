@@ -133,26 +133,29 @@ i {
 
 /*** mid-container ***/
 #mid-container {
-  width: 1032px !important;
+  width: 1036px !important;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 /*** left-container ***/
 /* #left-container {
   margin-left: 135px !important;
 } */
+#left-container {
+  width: 287px !important;
+}
 #left-container > div:nth-of-type(2) {
-  width: 272px !important;
+  width: 287px !important;
 }
 #left-container > div:nth-of-type(3) {
-  left: 24px !important;
+  left: 34px !important;
 }
 
 /*** left menu layout ***/
 #neo_lmenubg {
   position: absolute;
-  width: 272px;
+  width: 287px;
   top: 190px;
   height: 100%;
   background-color: #ffffff;
