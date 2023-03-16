@@ -133,7 +133,7 @@ i {
 
 /*** mid-container ***/
 #mid-container {
-  width: 1036px !important;
+  width: 1026px !important;
   display: flex;
   /* justify-content: center; */
 }
@@ -143,19 +143,19 @@ i {
   margin-left: 135px !important;
 } */
 #left-container {
-  width: 287px !important;
+  width: 377px !important;
 }
 #left-container > div:nth-of-type(2) {
-  width: 287px !important;
+  width: 277px !important;
 }
 #left-container > div:nth-of-type(3) {
-  left: 34px !important;
+  left: 24px !important;
 }
 
 /*** left menu layout ***/
 #neo_lmenubg {
   position: absolute;
-  width: 287px;
+  width: 277px;
   top: 190px;
   height: 100%;
   background-color: #ffffff;
