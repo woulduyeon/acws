@@ -60,15 +60,19 @@
         align-items: flex-start;
         box-sizing: border-box;
         margin: 0;
+        background: #5854a5;
+      }
+      .hidden-bullet {
+        color: #ffffff00;
+      }
 
-        /* background: linear-gradient(
+      /* background: linear-gradient(
           74.25deg,
           #5e55b5 26.79%,
           #669194 42.17%,
           #6bb780 63.14%
         ); */
-        background: #5854a5;
-      }
+
       /* 배너이미지와 텍스트 그룹박스 */
       .infoBox {
         width: 100%;
@@ -166,7 +170,19 @@
         margin: 0 !important;
         padding-top: 10px;
       }
-
+      /******* swiper-button *******/
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: #ffffff !important;
+      }
+      .swiper-button-next {
+        margin-right: 50px;
+        background-image: url("/user/acws/mycodyimages/arrow_prev.svg");
+      }
+      .swiper-button-prev {
+        margin-left: 50px;
+        background-image: url("/user/acws/mycodyimages/arrow_next.svg");
+      }
       /******* Swiper pagination*******/
       .swiper-pagination {
         position: absolute;
@@ -204,6 +220,8 @@
       <div class="swiper-wrapper">
         <!-- 첫번째 슬라이드 -->
         <div class="swiper-slide">
+          <i class="hidden-bullet">Studies</i>
+          <span data-class></span>
           <a
             class="infoBox link1"
             target="_top"
@@ -220,6 +238,7 @@
         </div>
         <!-- 두번째 슬라이드 -->
         <div class="swiper-slide">
+          <i class="hidden-bullet">Education</i>
           <a
             class="infoBox link2"
             target="_top"
@@ -236,6 +255,7 @@
         </div>
         <!-- 세번째 슬라이드 -->
         <div class="swiper-slide">
+          <i class="hidden-bullet">Publishing</i>
           <a
             class="infoBox link3"
             target="_top"
@@ -251,6 +271,10 @@
           </a>
         </div>
       </div>
+      <!-- 이동 화살표 -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- 페이지네이션 -->
       <div class="swiper-pagination"></div>
     </div>
 
@@ -277,8 +301,19 @@
           el: ".swiper-pagination",
           clickable: true,
           renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
+            var slide = $("." + this.wrapperClass).find(".swiper-slide")[index];
+            return (
+              "<span class=" +
+              className +
+              ">" +
+              $(slide).text(".hidden-bullet") +
+              "</span>"
+            );
           },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
       });
     </script>
