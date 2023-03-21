@@ -62,9 +62,13 @@
         margin: 0;
         background: #5854a5;
       }
-      .hidden-bullet {
-        color: #ffffff00;
+      /* .hiddenBullet {
+        visibility: hidden;
+        font-size: 16px;
       }
+      .showBullet {
+        visibility: visible;
+      } */
 
       /* background: linear-gradient(
           74.25deg,
@@ -220,7 +224,7 @@
       <div class="swiper-wrapper">
         <!-- 첫번째 슬라이드 -->
         <div class="swiper-slide">
-          <i class="hidden-bullet">Studies</i>
+          <i class="hiddenBullet">Studies</i>
           <span data-class></span>
           <a
             class="infoBox link1"
@@ -238,7 +242,7 @@
         </div>
         <!-- 두번째 슬라이드 -->
         <div class="swiper-slide">
-          <i class="hidden-bullet">Education</i>
+          <i class="hiddenBullet">Education</i>
           <a
             class="infoBox link2"
             target="_top"
@@ -255,7 +259,7 @@
         </div>
         <!-- 세번째 슬라이드 -->
         <div class="swiper-slide">
-          <i class="hidden-bullet">Publishing</i>
+          <i class="hiddenBullet">Publishing</i>
           <a
             class="infoBox link3"
             target="_top"
@@ -302,20 +306,39 @@
           clickable: true,
           renderBullet: function (index, className) {
             var slide = $("." + this.wrapperClass).find(".swiper-slide")[index];
-            return (
+            if (index = 0) {
+              return
+                "<span class=" +
+                className +
+                ">" +
+                "Studies" +
+                "</span>"
+              }
+            else if (index = 1) {
+              return
               "<span class=" +
               className +
               ">" +
-              $(slide).text(".hidden-bullet") +
+              "Education" +
               "</span>"
-            );
-          },
-        },
+            }
+            else (index = 2) {
+              return
+              "<span class=" +
+              className +
+              ">" +
+              "Publishing" +
+              "</span>"
+            }
+            }
+          }
+        },{
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
-        },
-      });
+        }
+      }
+      )
     </script>
     <!-- 슬라이드 텍스트 JS-->
     <script
