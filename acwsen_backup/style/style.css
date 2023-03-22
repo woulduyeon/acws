@@ -1,0 +1,80 @@
+/*주메뉴 볼드처리*/
+#menuTopUI #div #k2wiz_GNB .li_1 a.a_1{
+	font-weight: bold;
+}
+
+/***EwhaNews ***/
+.mbsEwhaNews a.more {
+  top: -13px !important;
+}
+
+/*** tabBoard ***/
+.tabBoardWrap.skin_001 .tabBoardBox .tabBoardList .tabBoardLi.on .tabBoardTab {
+  border-color: #eb5177 !important;
+  background-color: #eb5177 !important;
+}
+
+/*** left menu layout ***/
+#neo_lmenubg
+{
+	position:absolute; width:272px; top:190px;
+	height: 100%;
+	background:url('/user/template0201/mycodyimages/left_menu_bg.png') 0 0;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+/*** pageContent layout ***/
+
+#mid-container div#content-container {
+	background:url('/user/template0201/mycodyimages/sub_bg.png') 0 190px;
+	background-repeat: no-repeat;
+}
+
+.neoPageContent{
+	position: absolute;
+	top: 300px;
+	width: 715px;
+	left: 0px;
+}
+
+/*** footer layout ***/
+#jwWrapFooter{
+	background-color: #39383b;
+	background-image:url('');
+	background-repeat: repeat-x;
+}
+#footer {
+	background-color: #39383b;
+	padding: 30px 0 0 17px;
+}
+#footer .privacy {color:#999; } 
+#footer .privacy a { color:#FFF; text-decoration:none; margin-right:5px; }
+#footer .address {color:#999; margin:10px 0 0 0; }
+#footer .address strong { color:#d7d7d7; }
+#footer .address a { color:#999; text-decoration:none; }
+#footer .copyright {color:#999; font-size:0.95em; margin:0 0 30px 0;}
+
+/*앨범게시판 색상 변경*/
+#album-container div ul li dl dt a{color:#7b7b7b !important;}
+#album-container div ul li dl dt a:hover{color:#2b2b2b !important;}
+
+/*동영상게시판 마우스오버시 색상*/
+#movie-container div.list a:hover{color:#2b2b2b !important;}
+
+/*인물게시판 타입별로 색상 변경*/
+	/*공통*/
+#profile-container div.list a{color:#7e7e7e !important;}
+#profile-container div.list a:hover{color:#a1a1a1 !important;}/*text마우스오버시색상_유형1,2*/
+#profile-container div.list ul > li .info a:hover{color:#a1a1a1 !important;}/*text마우스오버시색상_유형3,4,5*/
+#profile-container div.list{border-top:2px solid #8f8f8f !important;}/*border칼라*/
+	/*4번스킨*/
+#profile-container div.list.typeB ul > li .info dl dd span{color:#494949 !important;}/*4번스킨 text색상*/
+#profile-container .info dl dt, #profile-container .info dl dt a{color:#494949 !important;}/*4번스킨 세부내용 text색상*/
+#profile-container div.view.typeB ul > li .info dl dd span{color:#494949 !important;}/*4번스킨 세부내용 text색상*/
+	/*4번,5번 스킨 공통적용*/
+#profile-container .info a.mail{background:url("/Web-home/user/profile/images/profile_mail_gray.gif") left top no-repeat !important;}/*세부내용 메일버튼*/
+#profile-container .info a.homepage{background:url("/Web-home/user/profile/images/profile_home_gray.gif") left top no-repeat !important;}/*세부내용 홈피버튼*/
+	/*5번스킨*/
+#profile-container div.list.typeC ul > li .info dl dt{background:url('/Web-home/user/profile/images/title_gray.gif') left 8px no-repeat !important;}/*5번스킨 블릿 색상*/
+#profile-container div.view.typeC ul > li .info dl dt{background:url('/Web-home/user/profile/images/title_gray.gif') left 8px no-repeat !important;}/*5번스킨세부내용 블릿 색상*/

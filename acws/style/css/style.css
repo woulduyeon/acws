@@ -111,13 +111,13 @@ i {
 #content-container {
   width: 100% !important;
   height: px !important;
-  margin-bottom: 150px;
   /* padding: 0px 135px; */
   display: flex;
   justify-content: center;
   position: relative;
-  background-color: #ffffff 0 190px;
+  background-color: #ffffff;
   margin-left: 0px !important;
+  min-height: 1325px;
 }
 
 /***EwhaNews ***/
@@ -135,6 +135,7 @@ i {
 #mid-container {
   width: 1026px !important;
   display: flex;
+  margin: 100px;
   /* justify-content: center; */
 }
 

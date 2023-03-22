@@ -61,7 +61,10 @@
         box-sizing: border-box;
         margin: 0;
         background: #5854a5;
+        font-family: "Noto Sans KR", sans-serif !important;
+        -webkit-font-smoothing: antialiased !important;
       }
+
       /* 배너이미지와 텍스트 그룹박스 */
       .infoBox {
         width: 100%;
@@ -152,7 +155,7 @@
         font-family: "Noto Sans KR";
         font-style: normal;
         font-weight: 400 !important;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.5em;
         color: #ffffff;
         z-index: 1;
@@ -180,6 +183,7 @@
         width: auto !important;
         right: auto !important;
         margin: 0;
+        font-family: "Noto Sans KR", sans-serif !important;
       }
       .swiper-pagination-bullet-active {
         color: #fff !important;
@@ -188,7 +192,9 @@
         font-weight: 500 !important;
       }
       .swiper-pagination-bullet {
-        width: 50px;
+        min-width: 30px;
+        width: fit-content;
+        padding: 0 10px;
         height: 24px;
         text-align: center;
         line-height: 1.4em;

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      /*Noto Sans KR 폰트 패밀리*/
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap");
+      @font-face {
+        font-family: "Noto Sans KR";
+        src: url(/user/acws/style/fonts/NotoSansKR-Regular.woff) format("woff");
+        src: url(/user/acws/style/fonts/NotoSansKR-Medium.woff) format("woff");
+      }
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+      /****** Slide frame ******/
+      .swiper {
+        position: relative;
+        width: 100%;
+        height: 600px;
+      }
+
+      /****** Slide contents ******/
+      .swiper-slide {
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: flex-start;
+        box-sizing: border-box;
+        margin: 0;
+        background: #5854a5;
+        font-family: "Noto Sans KR", sans-serif !important;
+        -webkit-font-smoothing: antialiased !important;
+      }
+
+      /* 배너이미지와 텍스트 그룹박스 */
+      .infoBox {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0 135px;
+        text-decoration: none;
+      }
+      /****** 배너이미지 ******/
+      .item {
+        background-size: contain !important;
+        background-repeat: no-repeat;
+      }
+
+      .swiper-slide .items1 {
+        background-image: url("/user/acwsen/slideBanner/slide1.jpg");
+      }
+      .swiper-slide .items2 {
+        background-image: url("/user/acwsen/slideBanner/slide2.jpg");
+      }
+      .swiper-slide .items3 {
+        background-image: url("/user/acwsen/slideBanner/slide3.jpg");
+      }
+      .items1,
+      .items2,
+      .items3 {
+        margin-top: 50px;
+        /****** 배너이미지 사이즈 ******/
+        width: 865px;
+        height: 500px;
+        border-radius: 2px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        box-sizing: border-box;
+        background-position-x: center;
+        /* box-shadow: 0px 0px 10px 2px #2314663a; */
+      }
+      /****** 배너 텍스트 ******/
+
+      .info1,
+      .info2,
+      .info3 {
+        padding-bottom: 200px;
+        padding-right: 60px;
+        padding-top: 70px;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 720px;
+      }
+
+      /* 날짜 */
+      #slideDate1,
+      #slideDate2,
+      #slideDate3 {
+        font-family: "Noto Sans KR";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2em;
+        color: #ffffff;
+        z-index: 1;
+        margin-bottom: 40px !important;
+        word-break: keep-all;
+      }
+      /* 타이틀 */
+      #slideTitle1,
+      #slideTitle2,
+      #slideTitle3 {
+        font-family: "Noto Sans KR";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 1.25em;
+        color: #ffffff;
+        z-index: 1;
+        margin-bottom: 10px !important;
+        word-break: keep-all;
+      }
+      /* 요약정보 */
+      #slideSum1,
+      #slideSum2,
+      #slideSum3 {
+        font-family: "Noto Sans KR";
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 18px;
+        line-height: 1.5em;
+        color: #ffffff;
+        z-index: 1;
+        margin: 0 !important;
+        padding-top: 10px;
+      }
+      /******* swiper-button *******/
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: #ffffff !important;
+      }
+      .swiper-button-next {
+        margin-right: 50px;
+        background-image: url("/user/acwsen/mycodyimages/arrow_prev.svg");
+      }
+      .swiper-button-prev {
+        margin-left: 50px;
+        background-image: url("/user/acwsen/mycodyimages/arrow_next.svg");
+      }
+      /******* Swiper pagination*******/
+      .swiper-pagination {
+        position: absolute;
+        bottom: 50px !important;
+        left: 140px !important;
+        width: auto !important;
+        right: auto !important;
+        margin: 0;
+        font-family: "Noto Sans KR", sans-serif !important;
+      }
+      .swiper-pagination-bullet-active {
+        color: #fff !important;
+        background: #63b995 !important;
+        font-family: "Noto Sans KR", sans-serif !important;
+        font-weight: 500 !important;
+      }
+      .swiper-pagination-bullet {
+        min-width: 60px;
+        width: fit-content;
+        padding: 0 10px;
+        height: 24px;
+        text-align: center;
+        line-height: 1.4em;
+        font-size: 16px;
+        color: #5854a5;
+        /* border-radius: 0 !important; */
+        opacity: 1;
+        background: #fff;
+        font-family: "Noto Sans KR", sans-serif !important;
+        font-weight: 500 !important;
+        border-radius: 24px !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- 첫번째 슬라이드 -->
+        <div class="swiper-slide" data-name="Research">
+          <span data-class></span>
+          <a
+            class="infoBox link1"
+            target="_top"
+            href=""
+            style="cursor: pointer"
+          >
+            <div class="info1">
+              <pre id="slideDate1"></pre>
+              <pre id="slideTitle1"></pre>
+              <h1 id="slideSum1"></h1>
+            </div>
+            <div class="item items1"></div>
+          </a>
+        </div>
+        <!-- 두번째 슬라이드 -->
+        <div class="swiper-slide" data-name="Education">
+          <a
+            class="infoBox link2"
+            target="_top"
+            href=""
+            style="cursor: pointer"
+          >
+            <div class="info2">
+              <pre id="slideDate2"></pre>
+              <pre id="slideTitle2"></pre>
+              <h1 id="slideSum2"></h1>
+            </div>
+            <div class="item items2"></div>
+          </a>
+        </div>
+        <!-- 세번째 슬라이드 -->
+        <div class="swiper-slide" data-name="Publication">
+          <a
+            class="infoBox link3"
+            target="_top"
+            href=""
+            style="cursor: pointer"
+          >
+            <div class="info3">
+              <pre id="slideDate3"></pre>
+              <pre id="slideTitle3"></pre>
+              <h1 id="slideSum3"></h1>
+            </div>
+            <div class="item items3"></div>
+          </a>
+        </div>
+      </div>
+      <!-- 이동 화살표 -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- 페이지네이션 -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var menu = ["Research", "Education", "Publication"];
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        autoplay: {
+          delay: 5200,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + menu[index] + "</span>";
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- 슬라이드 텍스트 JS-->
+    <script
+      type="text/javascript"
+      src="/user/acwsen/slideBanner/slideText.js"
+    ></script>
+  </body>
+</html>
