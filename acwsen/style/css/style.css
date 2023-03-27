@@ -127,13 +127,13 @@ i {
 
 /*** tabBoard ***/
 .tabBoardWrap.skin_001 .tabBoardBox .tabBoardList .tabBoardLi.on .tabBoardTab {
-  border-color: #eb5177 !important;
-  background-color: #eb5177 !important;
+  border-color: #2b286f !important;
+  background-color: #2b286f !important;
 }
 
 /*** mid-container ***/
 #mid-container {
-  width: 1026px !important;
+  width: 1038px !important;
   display: flex;
   /* justify-content: center; */
 }
@@ -176,6 +176,7 @@ i {
   font-family: "Noto Sans KR", sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   color: #444444 !important;
+  border-top-right-radius: 6px !important;
 }
 .neoPageContent {
   position: absolute;

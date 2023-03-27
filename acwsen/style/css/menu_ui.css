@@ -900,7 +900,7 @@
 	#menuSubTitleUI_28104010
 
 {
-	background: url("/user/acwsen/mycodyimages/left1_tit.gif") no-repeat left top !important;
+	background: url("/user/acwsen/mycodyimages/left5_tit.gif") no-repeat left top !important;
   min-width: 50px !important;
   text-indent: -500 !important;
   font-size: 0 !important;
@@ -1151,8 +1151,8 @@
 
 {
 	
-	color:				#FFFFFF ;
-	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
 
@@ -1164,7 +1164,7 @@
 {	
 	
 	/*font-family: 		"돋움" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1174,8 +1174,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28103992:hover,
@@ -1184,7 +1184,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1197,7 +1197,7 @@
 {	
 	
 	/*font-family: 		"돋움" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1207,8 +1207,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28103997:hover,
@@ -1217,7 +1217,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1250,8 +1250,8 @@
 
 {
 	
-	color:				#FFFFFF ;
-	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
 
@@ -1273,8 +1273,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_56570464:hover,
@@ -1306,8 +1306,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_59020970:hover,
@@ -1339,8 +1339,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_59020242:hover,
@@ -1439,7 +1439,8 @@
 	border-width: 		0px 0px 0px 0px ;
 	
 	width: 				180px ;
-	height: 			24px ;
+	;width: 				221px !important;
+	height: 			41.25px !important; ;
 }
 
 	#menuSubUI #div_28103997 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1471,8 +1472,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_59020383:hover,
@@ -1514,8 +1515,8 @@
 
 {
 	
-	color:				#FFFFFF ;
-	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
 
@@ -1527,7 +1528,7 @@
 {	
 	
 	/*font-family: 		"돋움" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1537,8 +1538,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28104000:hover,
@@ -1547,7 +1548,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1560,7 +1561,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1570,8 +1571,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28104003:hover,
@@ -1580,7 +1581,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1593,7 +1594,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1603,7 +1604,7 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
+	width: 				221px !important;
 	height: 			52px !important;
 }
 
@@ -1613,7 +1614,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1626,7 +1627,7 @@
 {	
 	
 	/*font-family: 		"돋움" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
@@ -1636,8 +1637,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_28104002:hover,
@@ -1670,7 +1671,8 @@
 	border-width: 		0px 0px 0px 0px ;
 	
 	width: 				180px ;
-	height: 			24px ;
+	;width: 				221px !important;
+	height: 			41.25px !important; ;
 }
 
 	#menuSubUI #div_28104000 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1692,7 +1694,7 @@
 {	
 	
 	/*font-family: 		"돋움" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
@@ -1702,8 +1704,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_28104001:hover,
@@ -1725,7 +1727,7 @@
 {	
 	
 	/*font-family: 		"돋움" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1735,8 +1737,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28104009:hover,
@@ -1745,7 +1747,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1768,8 +1770,8 @@
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				180px ;
-	height: 			26px ;
+	width: 				221px ;
+	height: 			41.25px ;
 }
 
 	#menuSubUI #div_28104008 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1778,8 +1780,9 @@
 
 {
 	
-	color:				#FFFFFF ;
-	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
+	color: #2b286f
 	
 }
 
@@ -1791,7 +1794,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
@@ -1801,8 +1804,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_32385038:hover,
@@ -1811,7 +1814,7 @@
 
 {
 	
-	color:				#B03E5B !important;
+	color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1824,7 +1827,7 @@
 {	
 	
 	/*font-family: 		"돋움" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1834,8 +1837,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+	width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28104011:hover,
@@ -1844,7 +1847,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1867,8 +1870,8 @@
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				180px ;
-	height: 			26px ;
+	width: 				221px ;
+	height: 			41.25px ;
 }
 
 	#menuSubUI #div_28104010 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1877,8 +1880,8 @@
 
 {
 	
-	color:				#FFFFFF ;
-	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
 
@@ -1890,7 +1893,7 @@
 {	
 	
 	/*font-family: 		"돋움" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1900,8 +1903,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28104016:hover,
@@ -1910,7 +1913,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -1933,8 +1936,8 @@
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				180px ;
-	height: 			26px ;
+	width: 				221px ;
+	height: 			41.25px ;
 }
 
 	#menuSubUI #div_28104015 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1943,8 +1946,8 @@
 
 {
 	
-	color:				#FFFFFF ;
-	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
 
@@ -1966,8 +1969,8 @@
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				180px ;
-	height: 			26px ;
+	width: 				221px ;
+	height: 			41.25px ;
 }
 
 	#menuSubUI #div_28104024 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1976,8 +1979,8 @@
 
 {
 	
-	color:				#FFFFFF ;
-	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
 
@@ -1989,7 +1992,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -1999,8 +2002,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28104025:hover,
@@ -2009,7 +2012,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -2032,8 +2035,8 @@
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				180px ;
-	height: 			26px ;
+	width: 				221px ;
+	height: 			41.25px ;
 }
 
 	#menuSubUI #div_28104029 ul.ul_1 li.li_1 a.a_1:hover,
@@ -2042,8 +2045,8 @@
 
 {
 	
-	color:				#FFFFFF ;
-	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top ;
+	color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
 
@@ -2055,7 +2058,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
@@ -2065,8 +2068,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			26px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28104030:hover,
@@ -2075,7 +2078,7 @@
 
 {
 	
-	color:				#FFFFFF !important;
+color:				#2b286f !important;
 	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -2098,8 +2101,8 @@
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				180px ;
-	height: 			24px ;
+	width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI #div_28106135 ul.ul_1 li.li_1 a.a_1:hover,
@@ -2121,7 +2124,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
@@ -2131,8 +2134,9 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	
+width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_28106148:hover,
@@ -2154,7 +2158,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
@@ -2164,8 +2168,9 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_28106138:hover,
@@ -2187,7 +2192,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
@@ -2197,8 +2202,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_28106144:hover,
@@ -2220,7 +2225,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
@@ -2230,8 +2235,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				300px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_32384877:hover,
@@ -2253,7 +2258,7 @@
 {	
 	
 	/*font-family: 		"" !important;*/
-	font-size: 			12px !important;
+	font-size: 			12.5px !important;
 	text-align: 		left !important;
 	color:				#555555 !important;
 	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
@@ -2263,8 +2268,8 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				180px !important;
-	height: 			24px !important;
+	width: 				221px !important;
+	height: 			41.25px !important; 
 }
 
 	#menuSubUI a#k2wiz_GNB_32384866:hover,
