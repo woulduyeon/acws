@@ -123,7 +123,7 @@
 
   box-shadow: 0px 0px 6px 0px #00000054;
 
-  top: 53px !important;
+  top: 60px !important;
 
   left: px !important;
 
@@ -145,7 +145,7 @@
 
   box-shadow: 0px 0px 6px 0px #00000054;
 
-  top: 53px !important;
+  top: 60px !important;
 
   left: px !important;
 
@@ -179,7 +179,7 @@
 
   box-shadow: 0px 0px 6px 0px #00000054;
 
-  top: 53px !important;
+  top: 60px !important;
 
   left: px !important;
 
@@ -201,7 +201,7 @@
 
   box-shadow: 0px 0px 6px 0px #00000054;
 
-  top: 53px !important;
+  top: 60px !important;
 
   left: px !important;
 
@@ -223,7 +223,7 @@
 
   box-shadow: 0px 0px 6px 0px #00000054;
 
-  top: 53px !important;
+  top: 60px !important;
 
   left: px !important;
 
@@ -245,7 +245,7 @@
 
   box-shadow: 0px 0px 6px 0px #00000054;
 
-  top: 53px !important;
+  top: 60px !important;
 
   left: px !important;
 
@@ -290,11 +290,12 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 1.5px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   /* width: 				px !important; */
-  height: px !important;
+  height: 35px !important;
+  margin: 2.5px 0;
 }
 
 #menuTopUI a#k2wiz_GNB_26525355:hover,
@@ -317,11 +318,12 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: px !important;
-  height: px !important;
+  height: 35px !important;
+  margin: 2.5px 0;
 }
 
 #menuTopUI a#k2wiz_GNB_26525372:hover,
@@ -344,11 +346,12 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: px !important;
-  height: px !important;
+  height: 35px !important;
+  margin: 2.5px 0;
 }
 
 #menuTopUI a#k2wiz_GNB_26525360:hover,
@@ -371,11 +374,12 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: px !important;
-  height: px !important;
+  height: 35px !important;
+  margin: 2.5px 0;
 }
 
 #menuTopUI a#k2wiz_GNB_26525374:hover,
@@ -398,11 +402,12 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: px !important;
-  height: px !important;
+  height: 35px !important;
+  margin: 2.5px 0;
 }
 
 #menuTopUI a#k2wiz_GNB_26525363:hover,
@@ -425,11 +430,12 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 1.5px 0px 1.5px !important;
 
   display: block;
   width: 246px !important;
-  height: px !important;
+  height: 35px !important;
+  margin: 2.5px 0;
 }
 
 #menuTopUI a#k2wiz_GNB_26525379:hover,
@@ -1039,7 +1045,7 @@
 
   width: 214px;
   height: 27px;
-  line-height: 12px;
+  line-height: 1.5;
 }
 
 #menuSubUI #div_26525355 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1113,7 +1119,7 @@
 
   width: 214px;
   height: 27px;
-  line-height: 12px;
+  line-height: 1.5;
 }
 
 #menuSubUI #div_26525360 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1347,7 +1353,7 @@
 
   width: 214px;
   height: 27px;
-  line-height: 12px;
+  line-height: 1.5;
 
   font-family: "Noto Sans KR", sans-serif !important;
 }
@@ -1501,7 +1507,7 @@
 
   width: 214px;
   height: 27px;
-  line-height: 12px;
+  line-height: 1.5;
 }
 
 #menuSubUI #div_26525372 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1605,7 +1611,7 @@
 
   width: 214px;
   height: 27px;
-  line-height: 12px;
+  line-height: 1.5;
 }
 
 #menuSubUI #div_26525374 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1708,7 +1714,7 @@
 
   width: 214px;
   height: 27px;
-  line-height: 12px;
+  line-height: 1.5;
 }
 
 #menuSubUI #div_26525379 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1782,7 +1788,7 @@
 
   width: 214px;
   height: 27px;
-  line-height: 12px;
+  line-height: 1.5;
 }
 
 #menuSubUI #div_26525388 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1832,7 +1838,7 @@
 
   width: 214px;
   height: 27px;
-  line-height: 12px;
+  line-height: 1.5;
 }
 
 #menuSubUI #div_26525393 ul.ul_1 li.li_1 a.a_1:hover,

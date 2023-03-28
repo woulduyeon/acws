@@ -46,8 +46,9 @@
   height: 20px !important;
   padding-top: 65px;
   top: 65px;
-  padding-left: 880px;
+  padding-left: 780px;
   margin-right: 135px;
+  min-width: 300px;
 }
 /* 헤더 맨위 바로가기 세부버튼*/
 /* .indexMenu {
@@ -105,8 +106,12 @@ i {
   justify-content: start !important;
   /* box-shadow: 0px 0px 4px 0px #00000040; */
   z-index: 3;
-  margin-left: 135px;
-  min-width: 1490px;
+  /* margin-left: 135px; */
+  /* min-width: 1490px; */
+  max-width: 100%;
+  width: 100%;
+  padding: 20px 135px;
+  height: auto !important;
 }
 #content-container {
   width: 100% !important;
@@ -233,11 +238,15 @@ i {
   background-repeat: repeat-x;
 }
 #footer-container {
-  margin-left: 135px !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 185px;
 }
 #footer {
   background-color: #39383b;
-  padding: 30px 0 0 17px;
+  padding: 40px 0 0 145px;
+  width: 100% !important;
+  height: 100% !important;
 }
 #footer .privacy {
   color: #999;
