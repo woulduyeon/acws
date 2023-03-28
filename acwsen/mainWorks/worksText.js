@@ -6,10 +6,12 @@
 // 첫번째 사업 시작
 $(document).ready(function () {
   // 제목1
-  $("#workTitle1").text("인문사회연구소 지원사업"),
+  $("#workTitle1").text(
+    "Institute Programs in the Humanities & Social Sciences"
+  ),
     // 요약1
     $("#workSum1").text(
-      "인종과 젠더: 글로벌 한국의 신-인종화 현상 분석과 이론화"
+      "Race and Gender: Global Korea, Neo-Racialization and Intersectionality"
     ),
     // 링크1
     $(".link1").attr(
@@ -18,9 +20,13 @@ $(document).ready(function () {
     ),
     // 두번째 시업 시작
     // 제목2
-    $("#workTitle2").text("문화분야 근현대 여성인물 연구 및 홍보 지원사업"),
+    $("#workTitle2").text(
+      "Research and Promotion Project of Modern Female Figures in the Field of Culture "
+    ),
     // 요약2
-    $("#workSum2").text("이름없는 개척자들: 문화 분야 근현대 여성 인물"),
+    $("#workSum2").text(
+      "Women Pathfinder: Modern Female Figures in the Field of Culture"
+    ),
     // 링크2
     $(".link2").attr(
       "href",
@@ -28,10 +34,12 @@ $(document).ready(function () {
     ),
     // 세번째 사업 시작
     // 제목3
-    $("#workTitle3").text("아시아여성학 고등 교육과정 개발 사업"),
+    $("#workTitle3").text(
+      "Asian Women's Studies Higher Curriculum Development Project"
+    ),
     // 요약3
     $("#workSum3").text(
-      "Leadership Development Program on Women's Human Rights for Higher Education in Asia"
+      "Leadership Development Program on Women’s Human Rights for Higher Education in Asia"
     ),
     // 링크3
     $(".link3").attr(

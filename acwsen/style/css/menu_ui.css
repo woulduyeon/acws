@@ -167,7 +167,7 @@
 
 	background: url("") #fff left top no-repeat !important;
 
-	top: 53px !important;
+	top: 60px !important;
 
   margin: 0px 0px 0px 0px !important;
   padding: !important;
@@ -231,7 +231,7 @@
   height: 90px !important;
 
   left: px !important;
-	top: 53px !important;
+	top: 60px !important;
   margin: 0px 0px 0px 0px !important;
   padding: !important;
   border-width: px px px px !important;
@@ -262,7 +262,7 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 1.5px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   /* width: 				px !important; */
@@ -298,7 +298,7 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: px !important;
@@ -336,7 +336,7 @@
 	 padding: 0px 0px 0px 0px !important;
 	 border-style: solid;
 	 border-color: #ffffff !important;
-	 border-width: 0px 1.5px 0px 0px !important;
+	 border-width: 0px 0px 0px 1.5px !important;
  
 	 display: block;
 	 width: px !important;
@@ -372,7 +372,7 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: px !important;
@@ -407,7 +407,7 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 1.5px 0px 1.5px !important;
 
   display: block;
   width: px !important;
@@ -442,7 +442,7 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: 246px !important;
@@ -478,7 +478,7 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 0px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: 246px !important;
@@ -548,7 +548,7 @@
   color: #606060;
   background: url("") #ffffff no-repeat left top !important;
   margin: px px px px !important;
-  padding: 6px 0px 6px 25px !important;
+  padding: 10px 16px !important;
   border-style: solid;
   border-color: !important;
   border-width: px px px px !important;
@@ -1148,8 +1148,8 @@
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				180px ;
-	height: 			26px ;
+	width: 				221px ;
+	height: 			41.25px ;
 }
 
 	#menuSubUI #div_28103991 ul.ul_1 li.li_1 a.a_1:hover,

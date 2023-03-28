@@ -112,6 +112,7 @@ i {
   width: 100%;
   padding: 20px 135px;
   height: auto !important;
+  line-height: 1.5;
 }
 #content-container {
   width: 100% !important;
@@ -140,6 +141,7 @@ i {
 #mid-container {
   width: 1038px !important;
   display: flex;
+  padding-bottom: 120px;
   /* justify-content: center; */
 }
 
