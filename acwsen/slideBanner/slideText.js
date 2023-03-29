@@ -8,7 +8,7 @@ $(document).ready(function () {
   // 날짜1
   $("#slideDate1").text(""),
     // 제목1
-    $("#slideTitle1").text("Race and Gender"),
+    $("#slideTitle1").text("Research"),
     // 요약1
     $("#slideSum1").text(
       `Actively promotes and develops feminist knowledge based on the postcolonial epistemology with an interdisciplinary approach; and critically analyzes the globally intersectional dynamics of gender, sexuality, race, class, nationality, ethnicity, and so on.
@@ -24,7 +24,7 @@ $(document).ready(function () {
     //날짜2
     $("#slideDate2").text(""),
     //제목2
-    $("#slideTitle2").text("AWS"),
+    $("#slideTitle2").text("Education"),
     //요약2
     $("#slideSum2").text(
       `Nurtures new generations of feminist experts and activists to engage in research on Women’s Studies in Asia while running the Asian Women's Studies(AWS) program;
@@ -40,7 +40,7 @@ $(document).ready(function () {
     //날짜3
     $("#slideDate3").text(""),
     //제목3
-    $("#slideTitle3").text("AJWS"),
+    $("#slideTitle3").text("Publications"),
     // 요약3
     $("#slideSum3").text(
       "Publishes the Asian Journal of Women’s Studies(AJWS), a journal in English devoted to critical scholarship across contexts and disciplines, and in doing so contributes to building multi-vocal feminist knowledge about Asia; and publishes books so that research knowledge can reach the public and information can be circulated."

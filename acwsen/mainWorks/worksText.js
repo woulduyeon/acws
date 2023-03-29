@@ -16,7 +16,7 @@ $(document).ready(function () {
     // 링크1
     $(".link1").attr(
       "href",
-      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59015433&siteId=acws&menuUIType=sub"
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59020970&siteId=acwsen&menuUIType=sub"
     ),
     // 두번째 시업 시작
     // 제목2
@@ -30,7 +30,7 @@ $(document).ready(function () {
     // 링크2
     $(".link2").attr(
       "href",
-      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=46962217&siteId=acws&menuUIType=sub"
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59020242&siteId=acwsen&menuUIType=sub"
     ),
     // 세번째 사업 시작
     // 제목3
@@ -44,7 +44,7 @@ $(document).ready(function () {
     // 링크3
     $(".link3").attr(
       "href",
-      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=32320724&siteId=acws&menuUIType=sub"
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59020371&siteId=acwsen&menuUIType=sub"
     );
   //세번째 슬라이드 끝
 });

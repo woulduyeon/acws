@@ -230,8 +230,8 @@ i {
   font-weight: 500 !important;
 }
 #pagelocationTitle {
-  font-size: 1.8em !important;
-  line-height: 1.3;
+  font-size: 1.5em !important;
+  line-height: 1.72;
 }
 
 /*** footer layout ***/
@@ -277,6 +277,9 @@ i {
 }
 
 /*�ٹ��Խ��� ���� ����*/
+#album-container {
+  margin-top: 70px;
+}
 #album-container div ul li dl dt a {
   color: #7b7b7b !important;
 }
