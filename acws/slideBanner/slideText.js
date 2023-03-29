@@ -29,7 +29,10 @@ $(document).ready(function () {
       "외국인 대상의 석사 과정인 아시아여성학협동과정(AWS)을 운영하며, 여성학 연구 성과를 낼 수 있는 아시아 출신 페미니스트 연구자와 활동가를 활발히 육성하는 것을 목표로 한다. 그 외에도 아시아 및 전 세계의 고등 교육 기관에서 활용할 수 있는 창의적인 여성학 커리큘럼을 제작한다."
     ),
     //링크2
-    $(".link2").attr("href", "https://www.instagram.com/womenpathfinder/"),
+    $(".link2").attr(
+      "href",
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=26525364&siteId=acws&menuUIType=top"
+    ),
     //두번째 슬라이드 끝
     // 세번째 슬라이드
     //날짜3
@@ -43,7 +46,7 @@ $(document).ready(function () {
     //링크3
     $(".link3").attr(
       "href",
-      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=26525355&siteId=acws&menuUIType=top"
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=26525373&siteId=acws&menuUIType=top"
     );
   //세번째 슬라이드 끝
 });

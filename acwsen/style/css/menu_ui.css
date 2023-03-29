@@ -133,6 +133,8 @@
   border-width: px px px px !important;
   border-color: !important;
   border-style: solid;
+
+	z-index: 4;
  }
 #menuTopUI ul#k2wiz_GNB_ul_28103991{
 }
@@ -156,6 +158,8 @@
   border-width: px px px px !important;
   border-color: !important;
   border-style: solid;
+
+	z-index: 4;
  }
 #menuTopUI ul#k2wiz_GNB_ul_28103996{
 }
@@ -174,6 +178,8 @@
   border-width: px px px px !important;
   border-color: !important;
   border-style: solid;
+
+	z-index: 4;
  }
 #menuTopUI ul#k2wiz_GNB_ul_28103999{
 }
@@ -267,7 +273,7 @@
   display: block;
   /* width: 				px !important; */
   height: 35px !important;
-	margin: 2.5px 0;
+	margin: 21px 0;
 }
 
 
@@ -303,7 +309,7 @@
   display: block;
   width: px !important;
   height: 35px !important;
-	margin: 2.5px 0;
+	margin: 21px 0;
 }
 
 
@@ -341,7 +347,7 @@
 	 display: block;
 	 width: px !important;
 	 height: 35px !important;
-	 margin: 2.5px 0;
+	 margin: 21px 0;
 }
 
 
@@ -377,7 +383,7 @@
   display: block;
   width: px !important;
   height: 35px !important;
-	margin: 2.5px 0;
+	margin: 21px 0;
 }
 
 
@@ -407,12 +413,12 @@
   padding: 0px 0px 0px 0px !important;
   border-style: solid;
   border-color: #ffffff !important;
-  border-width: 0px 1.5px 0px 1.5px !important;
+  border-width: 0px 0px 0px 1.5px !important;
 
   display: block;
   width: px !important;
   height: 35px !important;
-	margin: 2.5px 0;
+	margin: 21px 0;
 }
 
 
@@ -447,7 +453,7 @@
   display: block;
   width: 246px !important;
   height: 35px !important;
-	margin: 2.5px 0;
+	margin: 21px 0;
 }
 
 
@@ -483,7 +489,7 @@
   display: block;
   width: 246px !important;
   height: 35px !important;
-	margin: 2.5px 0;
+	margin: 21px 0;
 }
 
 

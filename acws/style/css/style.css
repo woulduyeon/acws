@@ -110,7 +110,7 @@ i {
   /* min-width: 1490px; */
   max-width: 100%;
   width: 100%;
-  padding: 20px 135px;
+  padding: 0 135px;
   height: auto !important;
   line-height: 1.5;
 }

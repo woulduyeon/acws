@@ -23,7 +23,7 @@
   font-family: "Noto Sans KR", sans-serif !important;
   font-weight: 500 !important;
   z-index: 2;
-  margin: 2.5px 0 !important;
+  margin: 21px 0 !important;
 }
 #header-container {
   /* width: 100% !important; */
@@ -111,7 +111,7 @@ i {
   /* min-width: 1490px; */
   max-width: 100%;
   width: 100%;
-  padding: 20px 135px;
+  padding: 0 135px;
   height: auto !important;
   line-height: 1.5;
 }

@@ -17,7 +17,7 @@ $(document).ready(function () {
     // 링크1
     $(".link1").attr(
       "href",
-      "http://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59015433&siteId=acws&menuUIType=sub&dum=dum&boardId=59010723&page=1&command=albumView&boardSeq=59297667&chkBoxSeq=&categoryDepth="
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59020970&siteId=acwsen&menuUIType=sub"
     ),
     // 첫번째 슬라이드 끝
     // 두번째 슬라이드
@@ -31,7 +31,10 @@ $(document).ready(function () {
       and leads the exploration of creative pedagogical approaches to teaching feminism among higher education institutions in Asia and across the globe.`
     ),
     //링크2
-    $(".link2").attr("href", "https://www.instagram.com/womenpathfinder/"),
+    $(".link2").attr(
+      "href",
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=28104000&siteId=acwsen&menuUIType=top"
+    ),
     //두번째 슬라이드 끝
     // 세번째 슬라이드
     //날짜3
@@ -45,7 +48,7 @@ $(document).ready(function () {
     //링크3
     $(".link3").attr(
       "href",
-      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=26525355&siteId=acws&menuUIType=top"
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=28104009&siteId=acwsen&menuUIType=top"
     );
   //세번째 슬라이드 끝
 });
