@@ -188,7 +188,7 @@ i {
 }
 .neoPageContent {
   position: absolute;
-  top: 300px;
+  top: 340px;
   width: 715px;
   left: 0px;
   line-height: 1.6 !important;
@@ -196,6 +196,9 @@ i {
   font-family: "Noto Sans KR", sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
 }
+/* #content-container > div:nth-of-type(2) {
+  top: 360px !important;
+} */
 .conbuilContent > p {
   line-height: 1.6 !important;
 }
@@ -212,14 +215,16 @@ i {
 /*** board container type ***/
 #board-container {
   font-size: min(1.2em, 14px) !important;
+  margin-top: 210px !important;
 }
 /*** table type ***/
 .conbuilContent > table > tbody > tr > td > p > span {
   font-size: min(1.2em, 14px) !important;
 }
-/* #contentSortable > div > div{
-  font-size: min(1.2em, 14px) !important;
-} */
+#contentSortable {
+  position: relative;
+  margin-top: 60px !important;
+}
 
 /*** quick menu widget ***/
 #jwWrapQuick {
@@ -232,6 +237,9 @@ i {
 #pagelocationTitle {
   font-size: 1.5em !important;
   line-height: 1.72;
+}
+#pagelocationWrap.skin_003 {
+  height: 120px !important;
 }
 
 /*** footer layout ***/
