@@ -16,7 +16,7 @@ $(document).ready(function () {
       "href",
       "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59015433&siteId=acws&menuUIType=sub"
     ),
-    // 두번째 시업 시작
+    // 두번째 사업 시작
     // 제목2
     $("#workTitle2").text("문화분야 근현대 여성인물 연구 및 홍보 지원사업"),
     // 요약2

@@ -18,7 +18,7 @@ $(document).ready(function () {
       "href",
       "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59020970&siteId=acwsen&menuUIType=sub"
     ),
-    // 두번째 시업 시작
+    // 두번째 사업 시작
     // 제목2
     $("#workTitle2").text(
       "Research and Promotion Project of Modern Female Figures in the Field of Culture "
