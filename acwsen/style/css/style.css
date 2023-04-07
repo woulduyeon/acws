@@ -120,11 +120,16 @@ i {
   height: px !important;
   /* padding: 0px 135px; */
   display: flex;
-  justify-content: center;
+  justify-content: start;
   position: relative;
   background-color: #ffffff;
   margin-left: 0px !important;
   min-height: 1325px;
+  padding-top: 190px;
+}
+#content-container > div:nth-of-type(2) {
+  position: relative !important;
+  top: 0px !important;
 }
 
 /***EwhaNews ***/
@@ -151,7 +156,7 @@ i {
   margin-left: 135px !important;
 } */
 #left-container {
-  width: 377px !important;
+  padding-top: 190px;
 }
 #left-container > div:nth-of-type(2) {
   width: 277px !important;
@@ -188,7 +193,7 @@ i {
 }
 .neoPageContent {
   position: absolute;
-  top: 340px;
+  top: 145px;
   width: 715px;
   left: 0px;
   line-height: 1.6 !important;
@@ -215,15 +220,17 @@ i {
 /*** board container type ***/
 #board-container {
   font-size: min(1.2em, 14px) !important;
-  margin-top: 210px !important;
+  /* margin-top: 210px !important; */
 }
 /*** table type ***/
 .conbuilContent > table > tbody > tr > td > p > span {
   font-size: min(1.2em, 14px) !important;
 }
 #contentSortable {
-  position: relative;
-  margin-top: 60px !important;
+  margin-top: 125px !important;
+}
+#contentsWrap {
+  padding-top: 25px;
 }
 
 /*** quick menu widget ***/
@@ -233,13 +240,12 @@ i {
 /*** location-title ***/
 #pagelocationTitle > strong {
   font-weight: 500 !important;
+  padding-top: 25px;
 }
 #pagelocationTitle {
   font-size: 1.5em !important;
   line-height: 1.72;
-}
-#pagelocationWrap.skin_003 {
-  height: 120px !important;
+  top: 0px !important;
 }
 
 /*** footer layout ***/

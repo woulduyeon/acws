@@ -122,10 +122,12 @@ i {
   justify-content: center;
   position: relative;
   background-color: #ffffff;
-  margin-left: 0px !important;
   min-height: 1325px;
+  padding-top: 145px;
 }
-
+#content-container > div:nth-of-type(2) {
+  top: 0px !important;
+}
 /***EwhaNews ***/
 .mbsEwhaNews a.more {
   top: -13px !important;
@@ -150,7 +152,7 @@ i {
   margin-left: 135px !important;
 } */
 #left-container {
-  width: 377px !important;
+  padding-top: 190px;
 }
 #left-container > div:nth-of-type(2) {
   width: 277px !important;
@@ -187,9 +189,9 @@ i {
 }
 .neoPageContent {
   position: absolute;
-  top: 300px;
+  top: 145px;
   width: 715px;
-  left: 0px;
+  /* left: 0px; */
   line-height: 1.6 !important;
   font-size: min(1.2em, 14px) !important;
   font-family: "Noto Sans KR", sans-serif !important;
@@ -219,7 +221,12 @@ i {
 /* #contentSortable > div > div{
   font-size: min(1.2em, 14px) !important;
 } */
-
+#contentSortable {
+  margin-top: 125px !important;
+}
+#contentsWrap {
+  padding-top: 25px;
+}
 /*** quick menu widget ***/
 #jwWrapQuick {
   left: 50.5% !important;
@@ -227,6 +234,7 @@ i {
 /*** location-title ***/
 #pagelocationTitle > strong {
   font-weight: 500 !important;
+  padding-top: 25px;
 }
 #pagelocationTitle {
   font-size: 1.5em !important;
