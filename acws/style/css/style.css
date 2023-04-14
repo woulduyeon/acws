@@ -139,7 +139,7 @@ i {
 
 /*** mid-container ***/
 #mid-container {
-  width: 1138px !important;
+  width: 1028px !important;
   display: flex;
   padding-bottom: 120px;
   /* justify-content: center; */
@@ -220,10 +220,8 @@ i {
   font-size: min(1.2em, 14px) !important;
 } */
 #contentSortable {
-  margin-top: 125px !important;
 }
 #contentsWrap {
-  padding-top: 25px;
 }
 /*** quick menu widget ***/
 #jwWrapQuick {
@@ -239,6 +237,9 @@ i {
   line-height: 1.72;
 }
 #pagelocationNav {
+}
+#pagelocationWrap {
+  padding-bottom: 20px;
 }
 
 /*** footer layout ***/
@@ -291,7 +292,6 @@ i {
   color: #2b2b2b !important;
 }
 #album-container {
-  margin-top: 70px !important;
 }
 /*������Խ��� ���콺������ ����*/
 #movie-container div.list a:hover {
