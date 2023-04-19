@@ -119,8 +119,10 @@ i {
   height: px !important;
   /* padding: 0px 135px; */
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  flex-direction: column;
   position: relative;
+  /* padding-top: 280px; */
   background-color: #ffffff;
   min-height: 1325px;
 }
@@ -220,6 +222,7 @@ i {
   font-size: min(1.2em, 14px) !important;
 } */
 #contentSortable {
+  /* padding-top: 40px !important; */
 }
 #contentsWrap {
 }
@@ -239,7 +242,6 @@ i {
 #pagelocationNav {
 }
 #pagelocationWrap {
-  padding-bottom: 20px;
 }
 
 /*** footer layout ***/

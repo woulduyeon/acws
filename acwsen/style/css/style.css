@@ -121,15 +121,13 @@ i {
   /* padding: 0px 135px; */
   display: flex;
   justify-content: start;
+  flex-direction: column;
   position: relative;
+  /* padding-top: 280px; */
   background-color: #ffffff;
-  margin-left: 0px !important;
   min-height: 1325px;
-  padding-top: 190px;
 }
 #content-container > div:nth-of-type(2) {
-  position: relative !important;
-  top: 0px !important;
 }
 
 /***EwhaNews ***/
@@ -145,7 +143,7 @@ i {
 
 /*** mid-container ***/
 #mid-container {
-  width: 1038px !important;
+  width: 1028px !important;
   display: flex;
   padding-bottom: 120px;
   /* justify-content: center; */
@@ -156,7 +154,7 @@ i {
   margin-left: 135px !important;
 } */
 #left-container {
-  padding-top: 190px;
+  padding-top: 220px;
 }
 #left-container > div:nth-of-type(2) {
   width: 277px !important;
@@ -168,7 +166,7 @@ i {
 /*** left menu layout ***/
 #neo_lmenubg {
   position: absolute;
-  width: 277px;
+  width: 273px;
   top: 190px;
   height: 100%;
   background-color: #ffffff;
@@ -193,9 +191,9 @@ i {
 }
 .neoPageContent {
   position: absolute;
-  top: 145px;
-  width: 715px;
-  left: 0px;
+  top: 330px;
+  width: 705px;
+  /* left: 0px; */
   line-height: 1.6 !important;
   font-size: min(1.2em, 14px) !important;
   font-family: "Noto Sans KR", sans-serif !important;
@@ -227,10 +225,8 @@ i {
   font-size: min(1.2em, 14px) !important;
 }
 #contentSortable {
-  margin-top: 125px !important;
 }
 #contentsWrap {
-  padding-top: 25px;
 }
 
 /*** quick menu widget ***/
