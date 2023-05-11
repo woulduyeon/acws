@@ -75,9 +75,18 @@
 #menuTopUI ul#k2wiz_GNB li ul {
   position: relative;
   font-family: "Noto Sans KR", sans-serif !important;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 #menuTopUI ul#k2wiz_GNB li ul li.li_2 {
   position: relative; /*고정값*/
+	display: block;
+	width: 214px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
   font-family: "Noto Sans KR", sans-serif !important;
   height: 44px;
 }
@@ -118,7 +127,7 @@
 
   width: 246px !important;
 
-  height: 132px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -143,7 +152,7 @@
  {
 	width: 246px !important;
 
-  height: 44px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -167,7 +176,7 @@
 #menuTopUI #div_28103999
  {
 	width: 246px !important;
-	height: 158px !important;
+	height: fit-content !important;
 
 	background: url("") #fff left top no-repeat !important;
 
@@ -188,7 +197,7 @@
  {
 	width: 246px !important;
 
-  height: 90px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -211,7 +220,7 @@
  {
 	width: 246px !important;
 
-  height: 90px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -234,7 +243,7 @@
  {
 	background: url("") #fff left top no-repeat !important;
   width: 246px !important;
-  height: 90px !important;
+  height: fit-content !important;
 
   left: px !important;
 	top: 77.5px !important;
@@ -524,9 +533,11 @@
   border-style: solid;
   border-color: ;
   border-width: px px px px;
-  width: 214px;
   display: block;
-  /* width: 				px ; */
+	width: 214px !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
   height: px;
 }
 
@@ -594,8 +605,11 @@
   border-color: ;
   border-width: px px px px;
 
-  display: block;
-  width: 214px;
+	display: block;
+	width: 214px !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
   height: px;
 }
 
@@ -635,6 +649,9 @@
   display: block;
   width: 214px !important;
   height: px !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 
@@ -768,8 +785,11 @@
   border-color: ;
   border-width: px px px px;
 
-  display: block;
-  width: 214px;
+	display: block;
+	width: 214px !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
   height: px;
   position: absolute;
 }
@@ -871,8 +891,11 @@
   border-color: ;
   border-width: px px px px;
 
-  display: block;
-  width: 214px;
+	display: block;
+	width: 214px !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
   height: px;
 }
 
@@ -1081,6 +1104,9 @@
 	position: relative;/*고정값*/
 	
 	display: block !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	
 }
 
@@ -1154,7 +1180,7 @@
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				221px ;
+	width: 				214px ;
 	height: 			41.25px ;
 }
 
@@ -1187,7 +1213,7 @@
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -1220,7 +1246,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -1286,7 +1312,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -1319,7 +1345,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -1352,7 +1378,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -1452,7 +1478,7 @@ color:				#2b286f !important;
 	border-width: 		0px 0px 0px 0px ;
 	
 	width: 				180px ;
-	;width: 				221px !important;
+	;width: 				214px !important;
 	height: 			41.25px !important; ;
 }
 
@@ -1485,7 +1511,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -1520,6 +1546,10 @@ color:				#2b286f !important;
 	
 	width: 				180px ;
 	height: 			52px ;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 	#menuSubUI #div_28103999 ul.ul_1 li.li_1 a.a_1:hover,
@@ -1551,7 +1581,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -1584,7 +1614,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -1614,11 +1644,15 @@ color:				#2b286f !important;
 	margin: 			-1px 0px 0px 0px !important;
 	padding:	 		5px 0px 0px 10px !important;
 	border-style: solid;
-	border-color: 		    !important;
+	/* border-color: 		    !important; */
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			52px !important;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 	#menuSubUI a#k2wiz_GNB_59022611:hover,
@@ -1650,7 +1684,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -1684,7 +1718,7 @@ color:				#2b286f !important;
 	border-width: 		0px 0px 0px 0px ;
 	
 	width: 				180px ;
-	;width: 				221px !important;
+	;width: 				214px !important;
 	height: 			41.25px !important; ;
 }
 
@@ -1717,7 +1751,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -1750,7 +1784,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -1783,7 +1817,7 @@ color:				#2b286f !important;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				221px ;
+	width: 				214px ;
 	height: 			41.25px ;
 }
 
@@ -1817,7 +1851,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -1850,7 +1884,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -1883,7 +1917,7 @@ color:				#2b286f !important;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				221px ;
+	width: 				214px ;
 	height: 			41.25px ;
 }
 
@@ -1916,7 +1950,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -1949,7 +1983,7 @@ color:				#2b286f !important;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				221px ;
+	width: 				214px ;
 	height: 			41.25px ;
 }
 
@@ -1982,7 +2016,7 @@ color:				#2b286f !important;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				221px ;
+	width: 				214px ;
 	height: 			41.25px ;
 }
 
@@ -2015,7 +2049,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -2048,7 +2082,7 @@ color:				#2b286f !important;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				221px ;
+	width: 				214px ;
 	height: 			41.25px ;
 }
 
@@ -2081,7 +2115,7 @@ color:				#2b286f !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -2114,7 +2148,7 @@ color:				#2b286f !important;
 	border-color: 		    ;
 	border-width: 		0px 0px 0px 0px ;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -2148,7 +2182,7 @@ color:				#2b286f !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -2182,7 +2216,7 @@ width: 				221px !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
 
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 
@@ -2215,7 +2249,7 @@ width: 				221px !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-width: 				221px !important;
+width: 				214px !important;
 	height: 			41.25px !important;
 }
 
@@ -2248,12 +2282,12 @@ width: 				221px !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important;
 }
 
 	#menuSubUI a#k2wiz_GNB_32384877:hover,
-	#menuSubUI a#k2wiz_GNB_32384877.active,
+	#menuSubUI a#k2wiz_GNB_32384877.actives,
 	#menuSubUI a#k2wiz_GNB_32384877.activeOn
 
 {
@@ -2281,7 +2315,7 @@ width: 				221px !important;
 	border-color: 		    !important;
 	border-width: 		0px 0px 0px 0px !important;
 	
-	width: 				221px !important;
+	width: 				214px !important;
 	height: 			41.25px !important; 
 }
 

@@ -117,7 +117,7 @@
 
   width: 246px !important;
 
-  height: 132px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -141,7 +141,7 @@
 #menuTopUI #div_26525360 {
   width: 246px !important;
 
-  height: 44px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -177,7 +177,7 @@
 #menuTopUI #div_26525363 {
   width: 246px !important;
 
-  height: 132px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -201,7 +201,7 @@
 #menuTopUI #div_26525372 {
   width: 246px !important;
 
-  height: 90px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -223,7 +223,7 @@
 #menuTopUI #div_26525374 {
   width: 246px !important;
 
-  height: 90px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -245,7 +245,7 @@
 #menuTopUI #div_26525379 {
   width: 246px !important;
 
-  height: 90px !important;
+  height: fit-content !important;
 
   background: url("") #fff left top no-repeat !important;
 
@@ -267,7 +267,7 @@
 #menuTopUI #div_26526041 {
   background: url("") #fff left top no-repeat !important;
   width: 246px !important;
-  height: 90px !important;
+  height: fit-content !important;
 
   left: px !important;
   margin: 0px 0px 0px 0px !important;
@@ -555,6 +555,32 @@
 #menuTopUI a#k2wiz_GNB_26525361:hover,
 #menuTopUI a#k2wiz_GNB_26525361.active,
 #menuTopUI a#k2wiz_GNB_26525361.activeOn {
+  font-weight: 500;
+  color: #2b286f;
+  background: url("") #ffffff no-repeat left top !important;
+}
+
+/* 개별 메뉴*/
+#menuTopUI a#k2wiz_GNB_72023815 {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  color: #606060;
+  background: url("") #ffffff no-repeat left top !important;
+  margin: 0px 0px 0px 0px !important;
+  padding: 10px 16px 10px 16px !important;
+  border-style: solid;
+  border-color: !important;
+  border-width: 0px 0px 0px 0px !important;
+
+  display: block;
+  width: 214px !important;
+  height: px !important;
+}
+
+#menuTopUI a#k2wiz_GNB_72023815:hover,
+#menuTopUI a#k2wiz_GNB_72023815.active,
+#menuTopUI a#k2wiz_GNB_72023815.activeOn {
   font-weight: 500;
   color: #2b286f;
   background: url("") #ffffff no-repeat left top !important;
@@ -1063,7 +1089,7 @@
 
 /* 개별 메뉴*/
 #menuSubUI a#k2wiz_GNB_26525356 {
-  /*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
+  /*font-family: 		'Noto Sans KR', sans-serif !imporstant; !important;*/
   font-size: 16px !important;
   text-align: left !important;
   color: #555555;
@@ -1105,6 +1131,30 @@
 #menuSubUI a#k2wiz_GNB_26525361:hover,
 #menuSubUI a#k2wiz_GNB_26525361.active,
 #menuSubUI a#k2wiz_GNB_26525361.activeOn {
+  font-weight: 500;
+  background: url("/user/acws/mycodyimages/left_bgon.gif") no-repeat left top !important;
+}
+
+/* 개별 메뉴*/
+#menuSubUI a#k2wiz_GNB_72023815 {
+  /*font-family: 		'Noto Sans KR', sans-serif !important; !important;*/
+  font-size: 16px !important;
+  text-align: left !important;
+  color: #2b286f !important;
+  background: url("/user/acws/mycodyimages/left_bg.gif") no-repeat left top !important;
+  margin: -1px 0px 0px 0px !important;
+  padding: 8px 0px 0px 20px !important;
+  border-style: solid;
+  border-color: !important;
+  border-width: 0px 0px 0px 0px !important;
+
+  width: 214px !important;
+  height: 34px !important;
+}
+
+#menuSubUI a#k2wiz_GNB_72023815:hover,
+#menuSubUI a#k2wiz_GNB_72023815.active,
+#menuSubUI a#k2wiz_GNB_72023815.activeOn {
   font-weight: 500;
   background: url("/user/acws/mycodyimages/left_bgon.gif") no-repeat left top !important;
 }
