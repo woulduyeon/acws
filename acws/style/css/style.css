@@ -187,6 +187,9 @@ i {
   color: #444444 !important;
   border-top-right-radius: 6px !important;
 }
+/* #mid-container div#content-container > div:nth-of-type(1) {
+  top: 510px !important;
+} */
 .neoPageContent {
   position: absolute;
   top: 300px;
@@ -233,7 +236,7 @@ i {
 /*** location-title ***/
 #pagelocationTitle > strong {
   font-weight: 500 !important;
-  padding-top: 25px;
+  padding-top: 25px !important;
 }
 #pagelocationTitle {
   font-size: 1.5em !important;
@@ -242,6 +245,7 @@ i {
 #pagelocationNav {
 }
 #pagelocationWrap {
+  height: 75px !important;
 }
 
 /*** footer layout ***/
@@ -287,13 +291,18 @@ i {
 }
 
 /*�ٹ��Խ��� ���� ����*/
+#album-container {
+  margin-top: 70px;
+}
 #album-container div ul li dl dt a {
   color: #7b7b7b !important;
 }
 #album-container div ul li dl dt a:hover {
   color: #2b2b2b !important;
 }
-#album-container {
+#album-container div.list ul.gallery li div.thumb a,
+#album-container div.list ul.list li div.thumb a {
+  display: contents !important;
 }
 /*������Խ��� ���콺������ ����*/
 #movie-container div.list a:hover {

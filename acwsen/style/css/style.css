@@ -236,12 +236,15 @@ i {
 /*** location-title ***/
 #pagelocationTitle > strong {
   font-weight: 500 !important;
-  padding-top: 25px;
+  padding-top: 25px !important;
 }
 #pagelocationTitle {
   font-size: 1.5em !important;
   line-height: 1.72;
   top: 0px !important;
+}
+#pagelocationWrap {
+  height: 75px !important;
 }
 
 /*** footer layout ***/
@@ -295,6 +298,10 @@ i {
 }
 #album-container div ul li dl dt a:hover {
   color: #2b2b2b !important;
+}
+#album-container div.list ul.gallery li div.thumb a,
+#album-container div.list ul.list li div.thumb a {
+  display: contents !important;
 }
 
 /*������Խ��� ���콺������ ����*/

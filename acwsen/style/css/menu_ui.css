@@ -1066,7 +1066,7 @@
 /*1단계 영역 공통*/
 #menuSubUI .div_1{
 	
-	width: 				150px;
+	width: 				210px;
 	height: 			;
 	margin: 			0;
 	padding: 			0;
@@ -1084,12 +1084,12 @@
 	display: block;
 	
 }
-
+ul#k2wiz_GNB li ul li.li_26525373 {}
 /*2단계 영역 공통*/
 #menuSubUI div.div_2{
 	
 		
-		width: 				150px;
+		width: 				180px;
 		margin: 			0;
 		padding: 			0;
 		border-width: 		0;
