@@ -1626,6 +1626,32 @@
     top !important;
 }
 
+/* 개별 메뉴*/
+#menuSubUI a#k2wiz_GNB_72272864 {
+  /*font-family: 		"" !important;*/
+  font-size: 16px !important;
+  text-align: left !important;
+  color: #555555 !important;
+  background: url("/user/acws/mycodyimages/left_3th_bg.gif") no-repeat left top !important;
+  margin: 0px 0px 0px 0px !important;
+  padding: 10px 0px 10px 20px !important;
+  border-style: solid;
+  border-color: #a7a7a7 !important;
+  border-width: 0px 0px 1px 0px !important;
+
+  width: 201px !important;
+  /* height: 21.25px !important; */
+  line-height: 1;
+}
+
+#menuSubUI a#k2wiz_GNB_72272864:hover,
+#menuSubUI a#k2wiz_GNB_72272864.active,
+#menuSubUI a#k2wiz_GNB_72272864.activeOn {
+  font-weight: 500;
+  background: url("/user/acws/mycodyimages/left_3th_bgon.gif") no-repeat left
+    top !important;
+}
+
 /* 동일 그룹 */
 #menuSubUI #div_26525372 ul.ul_1 li.li_1 a.a_1 {
   /*font-family: 		'Noto Sans KR', sans-serif !important; ;*/

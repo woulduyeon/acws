@@ -188,6 +188,7 @@ i {
   -webkit-font-smoothing: antialiased !important;
   color: #444444 !important;
   border-top-right-radius: 6px !important;
+  word-wrap: break-word;
 }
 .neoPageContent {
   position: absolute;
