@@ -1616,9 +1616,7 @@ color:				#2b286f !important;
 	width: 				180px ;
 	height: 			52px ;
 	display: block;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	word-wrap: break-word;
 }
 
 	#menuSubUI #div_28103999 ul.ul_1 li.li_1 a.a_1:hover,
@@ -2449,7 +2447,7 @@ width: 				214px !important;
 
 {
 	
-	color:		 #2b286f !important;
+	color:				#006641 !important;
 	background			:url("/user/acwsen/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -2480,7 +2478,7 @@ width: 				214px !important;
 
 {
 	
-	color:		 #2b286f !important;
+	color:				#006641 !important;
 	background			:url("/user/acwsen/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
 }
@@ -2511,7 +2509,7 @@ width: 				214px !important;
 
 {
 	
-	color:		 #2b286f !important;
+	color:				#006641 !important;
 	background			:url("/user/acwsen/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
 	
 }
