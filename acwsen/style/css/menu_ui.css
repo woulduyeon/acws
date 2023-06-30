@@ -587,6 +587,37 @@
   background: url("") #ffffff no-repeat left top !important;
 }
 
+/* 개별 메뉴*/
+#menuTopUI a#k2wiz_GNB_72025789
+
+{
+	font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  color: #606060;
+  background: url("") #ffffff no-repeat left top !important;
+  margin: px px px px !important;
+  padding: 10px 16px !important;
+  border-style: solid;
+  border-color: !important;
+  border-width: px px px px !important;
+
+  display: block;
+  width: 214px !important;
+  height: px !important;
+}
+
+
+
+	#menuTopUI a#k2wiz_GNB_72025789:hover,
+	#menuTopUI a#k2wiz_GNB_72025789.active,
+	#menuTopUI a#k2wiz_GNB_72025789.activeOn
+
+{
+	font-weight: 500;
+  color: #2b286f;
+  background: url("") #ffffff no-repeat left top !important;
+}
 
 	/* 동일 단계*/
 	
@@ -607,9 +638,6 @@
 
 	display: block;
 	width: 214px !important;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
   height: px;
 }
 
@@ -1029,6 +1057,7 @@
   height: 72px !important;
 }
 
+
 /*****************************************************
 	=서브메뉴 영역
 	=common
@@ -1104,9 +1133,7 @@ ul#k2wiz_GNB li ul li.li_26525373 {}
 	position: relative;/*고정값*/
 	
 	display: block !important;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	word-wrap: break-word;
 	
 }
 
@@ -1142,6 +1169,19 @@ ul#k2wiz_GNB li ul li.li_26525373 {}
 #menuSubUI ul#k2wiz_GNB_ul_28103997{
 }
 
+#menuSubUI div#div_72025789
+ {
+	
+	background: 		url("")  left top no-repeat  !important;
+	
+	margin: 			0px 0px 0px; 0px  !important;
+	padding: 			0px 0px 0px 0px  !important;
+	border-width: 		px px px px !important;
+	border-color: 		     !important;
+	border-style: 		solid;
+}
+#menuSubUI ul#k2wiz_GNB_ul_72025789{
+}
 #menuSubUI div#div_28106341
  {
 	
@@ -1261,7 +1301,36 @@ color:				#2b286f !important;
 	
 }
 
+/* 개별 메뉴*/
+#menuSubUI a#k2wiz_GNB_72025789
 
+{	
+	
+	/*font-family: 		"돋움" !important;*/
+	font-size: 			12.5px !important;
+	text-align: 		left !important;
+	color:				#555555 !important;
+	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
+	margin: 			-1px 0px 0px 0px !important;
+	padding:	 		15px 0px 0px 10px !important;
+	border-style: solid;
+	border-color: 		    !important;
+	border-width: 		0px 0px 0px 0px !important;
+	
+width: 				214px !important;
+	height: 			41.25px !important;
+}
+
+	#menuSubUI a#k2wiz_GNB_72025789:hover,
+	#menuSubUI a#k2wiz_GNB_72025789.active,
+	#menuSubUI a#k2wiz_GNB_72025789.activeOn
+
+{
+	
+color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
+	
+}
 
 	/* 동일 그룹 */
 	#menuSubUI #div_28103996 ul.ul_1 li.li_1 a.a_1
@@ -1596,7 +1665,36 @@ color:				#2b286f !important;
 	
 }
 
+/* 개별 메뉴*/
+#menuSubUI a#k2wiz_GNB_72025835
 
+{	
+	
+	/*font-family: 		"돋움" !important;*/
+	font-size: 			12.5px !important;
+	text-align: 		left !important;
+	color:				#555555 !important;
+	background: 		url("/user/acwsen/mycodyimages/left_bg.gif")  no-repeat left top !important;
+	margin: 			-1px 0px 0px 0px !important;
+	padding:	 		15px 0px 0px 10px !important;
+	border-style: solid;
+	border-color: 		    !important;
+	border-width: 		0px 0px 0px 0px !important;
+	
+width: 				214px !important;
+	height: 			41.25px !important;
+}
+
+	#menuSubUI a#k2wiz_GNB_72025835:hover,
+	#menuSubUI a#k2wiz_GNB_72025835.active,
+	#menuSubUI a#k2wiz_GNB_72025835.activeOn
+
+{
+	
+color:				#2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_bgon.gif")  no-repeat left top !important;
+	
+}
 
 	/* 개별 메뉴*/
 	#menuSubUI a#k2wiz_GNB_28104003
@@ -1699,7 +1797,66 @@ color:				#2b286f !important;
 	
 }
 
+#menuSubUI a#k2wiz_GNB_72272864
 
+{	
+	
+	/*font-family: 		"돋움" !important;*/
+	font-size: 			12.5px !important;
+	text-align: 		left !important;
+	color:				#555555 !important;
+	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
+	margin: 			0px 0px 0px 0px !important;
+	padding:	 		5px 0px 0px 30px !important;
+	border-style: solid;
+	border-color: 		    !important;
+	border-width: 		0px 0px 0px 0px !important;
+	
+	width: 				214px !important;
+	height: 			41.25px !important; 
+}
+
+	#menuSubUI a#k2wiz_GNB_72272864:hover,
+	#menuSubUI a#k2wiz_GNB_72272864.active,
+	#menuSubUI a#k2wiz_GNB_72272864.activeOn
+
+{
+	
+	color:				#006641 !important;
+	background			:url("/user/acwsen/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
+	
+}
+
+#menuSubUI a#k2wiz_GNB_72272889
+
+{	
+	
+	/*font-family: 		"돋움" !important;*/
+	font-size: 			12.5px !important;
+	text-align: 		left !important;
+	color:				#555555 !important;
+	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
+	margin: 			0px 0px 0px 0px !important;
+	padding:	 		5px 0px 0px 30px !important;
+	border-style: solid;
+	border-color: 		    !important;
+	border-width: 		0px 0px 0px 0px !important;
+	word-wrap: break-word;
+	
+	width: 				180px !important;
+	height: 			41.25px !important; 
+}
+
+	#menuSubUI a#k2wiz_GNB_72272889:hover,
+	#menuSubUI a#k2wiz_GNB_72272889.active,
+	#menuSubUI a#k2wiz_GNB_72272889.activeOn
+
+{
+	
+	color:				#006641 !important;
+	background			:url("/user/acwsen/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
+	
+}
 
 	/* 동일 그룹 */
 	#menuSubUI #div_28104000 ul.ul_1 li.li_1 a.a_1
@@ -2297,7 +2454,36 @@ width: 				214px !important;
 	
 }
 
+	/* 개별 메뉴*/
+	#menuSubUI a#k2wiz_GNB_72487926
 
+{	
+	
+	/*font-family: 		"" !important;*/
+	font-size: 			12.5px !important;
+	text-align: 		left !important;
+	color:				#555555 !important;
+	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
+	margin: 			0px 0px 0px 0px !important;
+	padding:	 		5px 0px 0px 30px !important;
+	border-style: solid;
+	border-color: 		    !important;
+	border-width: 		0px 0px 0px 0px !important;
+	
+	width: 				214px !important;
+	height: 			41.25px !important;
+}
+
+	#menuSubUI a#k2wiz_GNB_72487926:hover,
+	#menuSubUI a#k2wiz_GNB_72487926.actives,
+	#menuSubUI a#k2wiz_GNB_72487926.activeOn
+
+{
+	
+	color:		 #2b286f !important;
+	background			:url("/user/acwsen/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
+	
+}
 
 	/* 개별 메뉴*/
 	#menuSubUI a#k2wiz_GNB_32384866
