@@ -11,7 +11,7 @@ $(document).ready(function () {
     $("#slideTitle1").text("Research"),
     // 요약1
     $("#slideSum1").text(
-      `Actively promotes and develops feminist knowledge based on the postcolonial epistemology with an interdisciplinary approach; and critically analyzes the globally intersectional dynamics of gender, sexuality, race, class, nationality, ethnicity, and so on.
+      `Actively produces feminist knowledge based on the postcolonial epistemology with an interdisciplinary approach; and critically analyzes the globally intersectional dynamics of gender, sexuality, race, class, nationality, ethnicity, and so on.
       Currently, a project 'Race and Gender: Global Korea, Neo-Racialization and Intersectionality' is being carried out.`
     ),
     // 링크1
@@ -27,7 +27,7 @@ $(document).ready(function () {
     $("#slideTitle2").text("Education"),
     //요약2
     $("#slideSum2").text(
-      `Nurtures new generations of feminist experts and activists to engage in research on Women’s Studies in Asia while running the Asian Women's Studies(AWS) program;
+      `Nurtures new generations of feminist experts to engage in research on Women’s Studies while running the Asian Women's Studies(AWS) program;
       and leads the exploration of creative pedagogical approaches to teaching feminism among higher education institutions in Asia and across the globe.`
     ),
     //링크2
@@ -40,7 +40,7 @@ $(document).ready(function () {
     //날짜3
     $("#slideDate3").text(""),
     //제목3
-    $("#slideTitle3").text("Publications"),
+    $("#slideTitle3").text("Publishing"),
     // 요약3
     $("#slideSum3").text(
       "Publishes the Asian Journal of Women’s Studies(AJWS), a journal in English devoted to critical scholarship across contexts and disciplines, and in doing so contributes to building multi-vocal feminist knowledge about Asia; and publishes books so that research knowledge can reach the public and information can be circulated."

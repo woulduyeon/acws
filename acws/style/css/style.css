@@ -199,6 +199,7 @@ i {
   font-size: min(1.2em, 14px) !important;
   font-family: "Noto Sans KR", sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
+  height: 100%;
 }
 .conbuilContent > p {
   line-height: 1.6 !important;
@@ -230,7 +231,7 @@ i {
 #contentsWrap {
 }
 .viewBtn {
-  margin-top: -40px;
+  /* margin-top: -40px; */
 }
 /*** quick menu widget ***/
 #jwWrapQuick {
