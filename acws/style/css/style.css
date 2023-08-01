@@ -231,7 +231,8 @@ i {
 #contentsWrap {
 }
 .viewBtn {
-  /* margin-top: -40px; */
+  margin-top: -40px;
+  z-index: 20;
 }
 /*** quick menu widget ***/
 #jwWrapQuick {

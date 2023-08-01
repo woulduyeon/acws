@@ -231,6 +231,8 @@ i {
 }
 .viewBtn {
   margin-top: -40px;
+  position: relative;
+  z-index: 20;
 }
 
 /*** quick menu widget ***/
